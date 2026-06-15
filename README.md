@@ -1,6 +1,5 @@
-# cybersecurity-journey
-This repository documents my ongoing journey in Cybersecurity fundamentals. It contains notes, hands-on lab exercises, and practice projects focused on building skills.
 # Cybersecurity Journey
+This repository documents my ongoing journey in Cybersecurity fundamentals. It contains notes, hands-on lab exercises, and practice projects focused on building skills.
 
 ## 👤 About Me
 Aspiring cybersecurity professional focused on:
@@ -16,10 +15,10 @@ Aspiring cybersecurity professional focused on:
 ## 🎯 Current Focus
 - Linux fundamentals  
 - Networking  
-- Wazuh SIEM  
-- Wireshark  
-- Web security labs  
-- Active Directory labs  
+- Wazuh SIEM  (X)
+- Wireshark  (X)
+- Web security labs  (X)
+- Active Directory labs  (X)
 
 ---
 
