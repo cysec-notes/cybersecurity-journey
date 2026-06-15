@@ -1,4 +1,4 @@
-# Resources
+# Fundamentals
 
 This section contains:
 - Linux notes
