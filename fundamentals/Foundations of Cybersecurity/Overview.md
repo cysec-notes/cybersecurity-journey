@@ -19,6 +19,5 @@ In this certificate program (Google Cybersecurity Professional Certificate), I w
 - Security Management
 - Cyber Attacks
 
-Date of start: June 17, 2026.
-Date of completion: n/a
-ds
+### Date of start: June 17, 2026.
+### Date of completion: n/a
