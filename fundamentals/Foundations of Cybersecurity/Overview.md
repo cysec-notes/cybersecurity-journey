@@ -24,3 +24,17 @@ In this certificate program (Google Cybersecurity Professional Certificate), I w
 
 - Date of start: June 17, 2026.
 - Date of completion: n/a
+
+Portfolio Tip
+
+For every Google Cybersecurity module, use the same format:
+
+Format:
+Overview
+Learning Objectives
+Key Concepts
+Tools Introduced
+Skills Gained
+Personal Reflection
+Evidence of Completion
+Next Steps
