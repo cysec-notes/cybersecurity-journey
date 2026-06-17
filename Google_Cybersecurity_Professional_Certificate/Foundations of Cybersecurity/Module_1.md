@@ -58,10 +58,10 @@ In this module, it gives me a fresh look about cybersecurity, why security matte
 As I begin my cybersecurity journey, I am curious and excited at the same time about the broader areas of security I might encounter along my journey.
 
 ## Evidence of Completion
-Course: Google Cybersecurity Professional Certificate
-Module: Welcome to the Exciting World of Cybersecurity
-Status: Completed
-Completion Date: June 17, 2026
+- Course: Google Cybersecurity Professional Certificate | Foundations of Cybersecurity
+- Module 1: Welcome to the Exciting World of Cybersecurity
+- Status: Completed
+- Completion Date: June 17, 2026
 
 ## Next Steps
 Continue Course 1 Module 2
