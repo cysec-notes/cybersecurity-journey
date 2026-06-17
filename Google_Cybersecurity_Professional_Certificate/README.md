@@ -1,4 +1,5 @@
 <img width="902" height="287" alt="image" src="https://github.com/user-attachments/assets/955169b5-5a2f-47ad-af0d-aa4bdbcdb0d4" />
+
 # Overview
 In this certificate program, I will learn in-demand skills and receive AI training from Google experts. I can study at my own pace, with no degree or prior experience required.
 
