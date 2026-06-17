@@ -11,13 +11,22 @@ After completing this module, I can:
 
 ## Key Concepts Learned
 #### What is Cybersecurity?
+The practice of ensuring confidentiality, integrity and availabilty of information by protecting networks, people, devices, and data from unauthorized access and criminal exoloits.
 
-#### Why Cybersecurity Matters?
+#### Why is Security important and how it benefits us:
+- Protects from external and internal threats. Threat inside and outside are presents and building a strong security is a must to protect from this kinds of threats.
+- Meets regulatory compliance. Its means organizaation should follow rules and guidelines to protect and secure.
+- Maintains and improve business productivity. During an incidents might happened, the business should continues operated while the security team is solving the problem. 
+- Reduce expenses. Implementing security measures often involves an investment.
 
 #### Common tasks include:
 
 #### Examples of cybersecurity roles:
-
+- Security analyst or specialist
+- Cybersecurity analyst or specialist
+- Security Operation Center (SOC) analyst
+- Information Security Analyst
+  
 ## Tools Introduced
 
 ## Skills Gained
