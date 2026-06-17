@@ -1,9 +1,9 @@
 <img width="902" height="287" alt="image" src="https://github.com/user-attachments/assets/955169b5-5a2f-47ad-af0d-aa4bdbcdb0d4" />
 
 # Overview
-In this certificate program, I will learn in-demand skills and receive AI training from Google experts. With no degree or prior experience required, I can study at my own pace. 
+In this certificate program, I will learn in-demand skills and receive AI training from Google experts. With no degree or prior experience required, I can study at my own pace.
 
-### What I will be learn:
+### What I will be learn throughout this program:
 1. Understand the importance of cybersecurity practices and their impact for organizations.
 2. Identify common risks, threats, and vulnerabilities, as well as techniques to mitigate them.
 3. Protect networks, devices, people, and data from unauthorized access and cyberattacks using Security Information and Event Management (SIEM) tools.
