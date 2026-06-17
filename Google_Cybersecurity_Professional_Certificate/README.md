@@ -1,7 +1,7 @@
 <img width="902" height="287" alt="image" src="https://github.com/user-attachments/assets/955169b5-5a2f-47ad-af0d-aa4bdbcdb0d4" />
 
 # Overview
-In this certificate program, I will learn in-demand skills and receive AI training from Google experts. I can study at my own pace, with no degree or prior experience required.
+In this certificate program, I will learn in-demand skills and receive AI training from Google experts. With no degree or prior experience required, I can study at my own pace. 
 
 ### What I will be learn:
 1. Understand the importance of cybersecurity practices and their impact for organizations.
