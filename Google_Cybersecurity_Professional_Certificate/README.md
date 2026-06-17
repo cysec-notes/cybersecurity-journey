@@ -35,11 +35,12 @@ In this certificate program, I will learn in-demand skills and receive AI traini
 
 ### Course include:
 1. [Foundations of Cybersecurity](./Overview.md)
-2. Play It Safe: Manage Security Risks
-3. Connect and Protect: Networks and Network Security
-4. Tools of the Trade: Linux and SQL
-5. Assets, Threats, and Vulnerabilities
-6. Sound the Alarm: Detection and Response
-7. Automate Cybersecurity Tasks with Python
-8. Put It to Work: Prepare for Cybersecurity Jobs
-9. Accelerate Your Job Search with AI
+2. [Overview](Overview.md)
+3. Play It Safe: Manage Security Risks
+4. Connect and Protect: Networks and Network Security
+5. Tools of the Trade: Linux and SQL
+6. Assets, Threats, and Vulnerabilities
+7. Sound the Alarm: Detection and Response
+8. Automate Cybersecurity Tasks with Python
+9. Put It to Work: Prepare for Cybersecurity Jobs
+10. Accelerate Your Job Search with AI
