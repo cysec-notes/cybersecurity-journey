@@ -19,6 +19,12 @@ The practice of ensuring confidentiality, integrity and availabilty of informati
 - Maintains and improve business productivity. During an incidents might happened, the business should continues operated while the security team is solving the problem. 
 - Reduce expenses. Implementing security measures often involves an investment.
 
+#### Core skills of a n entry-level Security analyst:
+1. Transferable skills - Skills from other areas of study/practices that can apply to difffernt carrers.
+   - Communication, Collaboration, analysis, problem-solving)
+2. Technical Skills - require knowledge of specific tools, procedures, and policies.
+   - Proggraming languages, SIEM tools, computer forensics
+
 #### Common tasks include:
 
 #### Examples of cybersecurity roles:
