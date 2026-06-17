@@ -30,11 +30,11 @@ Portfolio Tip
 For every Google Cybersecurity module, use the same format:
 
 Format:
-Overview
-Learning Objectives
-Key Concepts
-Tools Introduced
-Skills Gained
-Personal Reflection
-Evidence of Completion
-Next Steps
+1. Overview
+2. Learning Objectives
+3. Key Concepts
+4. Tools Introduced
+5. Skills Gained
+6. Personal Reflection
+7. Evidence of Completion
+8. Next Steps
