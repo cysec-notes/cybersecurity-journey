@@ -33,7 +33,7 @@ In this certificate program, I will learn in-demand skills and receive AI traini
 - Linux
 - Python Programming
 
-Course include:
+### Course include:
 1. [Foundations of Cybersecurity](Overview.md)
 2. Play It Safe: Manage Security Risks
 3. Connect and Protect: Networks and Network Security
