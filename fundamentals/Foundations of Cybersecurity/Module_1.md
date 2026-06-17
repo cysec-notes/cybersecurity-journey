@@ -1,11 +1,11 @@
 # Module 1: Welcome to the Exciting World of Cybersecurity
-# Overview
+## Overview
 
-# Learning Objectives
+## Learning Objectives
 After completing this module, I can:
 
 
-# Key Concepts Learned
+## Key Concepts Learned
 #### What is Cybersecurity?
 
 #### Why Cybersecurity Matters?
@@ -14,18 +14,18 @@ After completing this module, I can:
 
 #### Examples of cybersecurity roles:
 
+## Tools Introduced
 
-# Personal Reflection
+## Skills Gained
 
+## Personal Reflection
 
-# Skills Gained
-
-
-# Evidence of Completion
+## Evidence of Completion
 Course: Google Cybersecurity Professional Certificate
 Module: Welcome to the Exciting World of Cybersecurity
 Status: 
 Completion Date: 
-Next Steps
+
+## Next Steps
 Continue Course 1 Module 2
 
