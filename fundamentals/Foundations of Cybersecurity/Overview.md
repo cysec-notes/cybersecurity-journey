@@ -19,7 +19,8 @@ In this certificate program (Google Cybersecurity Professional Certificate), I w
 - Security Management
 - Cyber Attacks
 
+### Foundations of Cybersecurity
 [Module 1: Welcome to the Exciting World of Cybersecurity](Module_1.md)
 
-### Date of start: June 17, 2026.
-### Date of completion: n/a
+- Date of start: June 17, 2026.
+- Date of completion: n/a
