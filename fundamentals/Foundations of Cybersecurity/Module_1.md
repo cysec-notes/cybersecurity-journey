@@ -24,8 +24,19 @@ The practice of ensuring confidentiality, integrity and availabilty of informati
    - Communication, Collaboration, Analysis, Problem-solving, Time management, Growth mindset
 2. Technical Skills - require knowledge of specific tools, procedures, and policies.
    - Proggraming languages, SIEM tools,Intrusion detection systems (IDSs), Threat landscape knowledge, Incident response
+  
+#### The importance of Cybersecurity
+Security is essential for maintaining organization/business safety. Data breaches and data loses can affect organization reputation as well as the lives and reputations of users, customer, and client. Securing strong measures, organization can increase user trust and gain fnancial growth.
 
-#### Common tasks include:
+#### Personally identifiable information (PII): 
+Any information used to infer an individual’s identity
+
+#### Security posture: 
+An organization’s ability to manage its defense of critical assets and data and react to change 
+
+#### Sensitive personally identifiable information (SPII): 
+A specific type of PII that falls under stricter handling guidelines
+
 
 #### Examples of cybersecurity roles:
 - Security analyst or specialist
@@ -34,17 +45,22 @@ The practice of ensuring confidentiality, integrity and availabilty of informati
 - Information Security Analyst
   
 ## Tools Introduced
-
+- SIEM tools
+  
 ## Skills Gained
+- Knowledge of the cybersecurity field in general
+- Understanding the primary job responsibilities of entry-level cybersecurity analysts
+- Understanding the core skills that cybersecurity analysts possess.
 
 ## Personal Reflection
 
 ## Evidence of Completion
 Course: Google Cybersecurity Professional Certificate
 Module: Welcome to the Exciting World of Cybersecurity
-Status: 
-Completion Date: 
+Status: Completed
+Completion Date: June 17, 2026
 
 ## Next Steps
 Continue Course 1 Module 2
+Exploring well know attacts that shape security industry.
 
