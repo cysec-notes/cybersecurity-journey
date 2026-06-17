@@ -21,9 +21,9 @@ The practice of ensuring confidentiality, integrity and availabilty of informati
 
 #### Core skills of an entry-level Security analyst:
 1. Transferable skills - Skills from other areas of study/practices that can apply to difffernt carrers.
-   - Communication, Collaboration, analysis, problem-solving)
+   - Communication, Collaboration, Analysis, Problem-solving
 2. Technical Skills - require knowledge of specific tools, procedures, and policies.
-   - Proggraming languages, SIEM tools, computer forensics
+   - Proggraming languages, SIEM tools, Computer forensics
 
 #### Common tasks include:
 
