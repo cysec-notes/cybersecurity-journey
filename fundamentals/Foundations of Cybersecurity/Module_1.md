@@ -53,11 +53,9 @@ A specific type of PII that falls under stricter handling guidelines
 - Understanding the core skills that cybersecurity analysts possess.
 
 ## Personal Reflection
-This module helped me understand the scope of cybersecurity, why security matters, and how it protects individuals and organizations. I learned key concepts, including threats, PII, SPII, technical and transferable skills, security audits, and the responsibilities of an entry-level security analyst. Those skills mentioned also highlight the importance of the security analyst, such as communication, collaboration, and technical skills. Moreover, using SIEM tools is crucial in security profession for monitoring, detecting, and analyzing possible threats and vulnerabilities.
+In this module, it gives me a fresh look about cybersecurity, why security matters, and how it protects individuals or organizations. I learned some key concepts, such as threats, PII, SPII, technical skills and transferable skills, security audits, and responsibilities of an entry-level security analyst. Those skills mentioned also highlight the importance in the security analyst such as communication, collaborations, and technical skills. Moreover,  using tools is crucial in the security for monitoring, detecting, and analyzing possible threats and vulnerabilities. In addition, I explored some phishing tactics used as a form of social engineering by identifying scenarios and evaluating suspicious links, domains, grammar, typos, and the urgency to pressure victims. 
 
-In addition, I explored some phishing tactics used as a form of social engineering by identifying scenarios and evaluating suspicious links, domains, grammar, typos, and the urgency often to pressure victims.
-
-As I begin my cybersecurity journey, I am curious and excited at the same time about the broader areas of security I might encounter in my journey. This growing knowledge motivates me to continue building practical skills and to stay prepared for the evolving challenges in the cybersecurity field.
+As I begin my cybersecurity journey, I am curious and excited at the same time about the broader areas of security I might encounter along my journey.
 
 ## Evidence of Completion
 Course: Google Cybersecurity Professional Certificate
