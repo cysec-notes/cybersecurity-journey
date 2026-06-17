@@ -1,20 +1,4 @@
-# OVERVIEW
+# Module 1: Welcome to the excited world of Cybersecurity
 In this certificate program (Google Cybersecurity Professional Certificate), I will learn in-demand skills and receive AI training from Google experts.
 
-### What I expected to learn in this course:
-- Understand the importance of cybersecurity practices and their impact for organizations.
-- Identify common risks, threats, and vulnerabilities, as well as techniques to mitigate them.
-- Protect networks, devices, people, and data from unauthorized access and cyberattacks using Security Information and Event Management (SIEM) tools.
-- Gain hands-on experience with Python, Linux, and SQL.
-
-### Skills and tools I will learn in this journey:
-- Security Information and Event Management (SIEM)
-- Information Assurance
-- Cyber Risk
-- Data Ethics
-- Cybersecurity
-- Network Analysis
-- Security Strategy
-- Security Controls
-- Security Management
-- Cyber Attacks
+### This module provides an overview of Course 1 and provides an introduction to the security certificate program. It introduces the instructor, Coursera platform, content types, learning procedures, and gives learners the opportunity to meet one another. It defines the field of security, describes the primary job responsibilities of those who work in the field, and highlights core skills. 
