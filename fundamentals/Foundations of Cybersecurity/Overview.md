@@ -1,4 +1,4 @@
-# OVERVIEW
+# OVERVIEW | Foundations of Cybersecurity
 In this certificate program (Google Cybersecurity Professional Certificate), I will learn in-demand skills and receive AI training from Google experts.
 
 ### What I expected to learn in this course:
