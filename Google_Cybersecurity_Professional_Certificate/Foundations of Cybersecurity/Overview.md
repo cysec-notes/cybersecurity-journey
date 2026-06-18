@@ -19,16 +19,16 @@ In this certificate program **(Google Cybersecurity Professional Certificate)**,
 - Security Management
 - Cyber Attacks
 
-  ### Personal Reflections
-  _Each module have my personal reflection on what I have learned and discovered througout the course/module_ 
+### Personal Reflections
+_Each module have my personal reflection on what I have learned and discovered througout the course/module_ 
 
 ### Foundations of Cybersecurity
-[Module 1: Welcome to the Exciting World of Cybersecurity](Module_1.md)
+- [Module 1: Welcome to the Exciting World of Cybersecurity](Module_1.md)
+- [Module 2: The Evolution of Cybersecurity](Module_2.md)
 
-[Module 2: The Evolution of Cybersecurity](Module_2.md)
-
-- **Date of start**: June 17, 2026.
-- **Date of completion:** n/a
+ **Date of start**: June 17, 2026.
+ 
+ **Date of completion:** n/a
 
 Portfolio Tip
 
