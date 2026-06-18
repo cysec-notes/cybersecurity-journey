@@ -21,6 +21,7 @@ In this certificate program (Google Cybersecurity Professional Certificate), I w
 
 ### Foundations of Cybersecurity
 [Module 1: Welcome to the Exciting World of Cybersecurity](Module_1.md)
+[Module 2: The Evolution of Cybersecurity](Module_2.md)
 
 - Date of start: June 17, 2026.
 - Date of completion: n/a
