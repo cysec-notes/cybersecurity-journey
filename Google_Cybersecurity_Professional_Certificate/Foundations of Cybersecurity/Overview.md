@@ -25,6 +25,7 @@ _Each module have my personal reflection on what I have learned and discovered t
 ### Foundations of Cybersecurity
 - [Module 1: Welcome to the Exciting World of Cybersecurity](Module_1.md)
 - [Module 2: The Evolution of Cybersecurity](Module_2.md)
+- [Module 3: Protect against with Threat, Risk, Vulnerabilities](Module_3.md)
 
  **Date of start**: June 17, 2026.
  
