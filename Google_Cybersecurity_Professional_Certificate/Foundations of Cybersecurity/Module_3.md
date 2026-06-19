@@ -1,6 +1,6 @@
 # Module 3: Protect against with Threat, Risk, Vulnerabilities
 ## Overview
-This module focuses on how organizations protect themselves from various threats by implementing security principles, framweworks, controls and compliance.
+This module focuses on how organizations protect themselves from various threats by implementing security principles, framweworks, controls, and compliance. It focuses also in cybersecurity ethic.
 
 ## Learning Objectives
 After completing this module, I can learn about:
