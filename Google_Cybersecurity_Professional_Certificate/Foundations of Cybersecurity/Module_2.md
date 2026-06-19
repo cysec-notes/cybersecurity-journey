@@ -68,5 +68,6 @@ To be a security professional, the main role is to identify potential vulnerabil
 
 ## Next Steps
 Continue Course 1 Module 3
+[Module 3: Protect against with Threat, Risk, Vulnerabilities](Module_3.md)
 
 
