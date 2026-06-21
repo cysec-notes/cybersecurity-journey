@@ -38,9 +38,7 @@ Your strengths:
 You have a strong understanding of the core purpose of a security analyst's role, particularly in risk mitigation.
 You effectively connected specific tasks like log monitoring and ethical conduct to their impact on organizational security.
 
-## Evidence of Completion
-
 
 ## Next Steps
-
+[Module 4: Cybersecurity Tools & Programming Languages](Module_4.md)
 
