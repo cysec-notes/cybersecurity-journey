@@ -26,21 +26,11 @@ _Each module have my personal reflection on what I have learned and discovered t
 - [Module 1: Welcome to the Exciting World of Cybersecurity](Module_1.md)
 - [Module 2: The Evolution of Cybersecurity](Module_2.md)
 - [Module 3: Protect against with Threat, Risk, Vulnerabilities](Module_3.md)
+- [Module 4: Cybersecurity Tools & Programming Languages](Module_4.md)
 
  **Date of start**: June 17, 2026.
+ **Date of completion**: June 21, 2026
  
- **Date of completion:** n/a
+ Certificate of Completion
+<img width="1045" height="811" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
 
-Portfolio Tip
-
-For every Google Cybersecurity module, use the same format:
-
-Format:
-1. Overview
-2. Learning Objectives
-3. Key Concepts
-4. Tools Introduced
-5. Skills Gained
-6. Personal Reflection
-7. Evidence of Completion
-8. Next Steps
