@@ -20,12 +20,11 @@ After completing this module, I can learn about:
 - Managing organization risk
 - Aligning security with business goals
 
-#### CIA Triad
+#### CIA Trial 
 - a model that helps inform how organization consider risk when setting up systems and security policies.
-
-- Confidentiality - only authorized user can access specific data or assets.
-- Integrety - data is corect, reliable, and uthentic
-- Avalability - data is accessible to those who is authorized to access it
+1. Confidentiality - only authorized user can access specific data or assets.
+2. Integrety - data is corect, reliable, and uthentic
+3. Avalability - data is accessible to those who is authorized to access it
 
 ## Skills Gained
 - Explain key security concepts in your own words, such as: The CIA triad (Confidentiality, Integrity, Availability)
