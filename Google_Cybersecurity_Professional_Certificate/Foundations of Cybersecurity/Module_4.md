@@ -1,6 +1,8 @@
 # Module 4: Cybersecurity Tools & Programming Languages
 ## Overview
-
+Explore the analyst role and responsibilities.
+Connect the responsibilities to security.
+Synthesize the analyst's proactive role.
 
 ## Learning Objectives
 After completing this module, I can:
@@ -29,8 +31,12 @@ Ex: Splunk, Chronicle SIEM
   
 ## Skills Gained
 
+<img width="892" height="547" alt="image" src="https://github.com/user-attachments/assets/f6692bc7-975f-4f6a-a6ce-244029d9a5d4" />
 
+Your strengths:
 
+You have a strong understanding of the core purpose of a security analyst's role, particularly in risk mitigation.
+You effectively connected specific tasks like log monitoring and ethical conduct to their impact on organizational security.
 
 ## Evidence of Completion
 
