@@ -3,8 +3,7 @@
 # Overview
 In this certificate program, I will have multiple opportunities to develop a professional cybersecurity portfolio to showcase my security skills and knowledge by recieving AI training from Google experts with no degree or prior experience required.
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/923de4b8-7b15-4c68-96f0-9a485544134d" />
-
+<img width="863" height="211" alt="image" src="https://github.com/user-attachments/assets/69cc579d-715d-4a0f-81a2-c4051abaa2e7" />
 
 ### What I will be learn throughout this program:
 1. Understand the importance of cybersecurity practices and their impact for organizations.
