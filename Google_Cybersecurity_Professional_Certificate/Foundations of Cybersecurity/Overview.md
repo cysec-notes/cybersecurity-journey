@@ -39,5 +39,5 @@ Each module have my personal reflection on what I have learned and discovered af
  **Date of completion**: June 21, 2026
  
 ## Certificate of Completion
-<img width="1045" height="811" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
 
