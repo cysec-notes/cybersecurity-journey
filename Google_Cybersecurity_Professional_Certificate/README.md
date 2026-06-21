@@ -33,7 +33,7 @@ In this certificate program, I will have multiple opportunities to develop a pro
 - Linux
 - Python Programming
 
-### Course include with completion of certification:
+### Course includes certification upon completion:
 1. [Foundations of Cybersecurity](./Foundations%20of%20Cybersecurity/Overview.md)
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
 
