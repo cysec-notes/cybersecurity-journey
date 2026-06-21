@@ -5,7 +5,6 @@ In this certificate program **(Google Cybersecurity Professional Certificate)**,
 - Understand the importance of cybersecurity practices and their impact for organizations.
 - Identify common risks, threats, and vulnerabilities, as well as techniques to mitigate them.
 - Protect networks, devices, people, and data from unauthorized access and cyberattacks using Security Information and Event Management (SIEM) tools.
-- Gain hands-on experience with Python, Linux, and SQL.
 
 ### Course learning
 - Core security concepts
