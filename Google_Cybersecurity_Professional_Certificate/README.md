@@ -35,7 +35,8 @@ In this certificate program, I will have multiple opportunities to develop a pro
 
 ### Course include with completion of certification:
 1. [Foundations of Cybersecurity](./Foundations%20of%20Cybersecurity/Overview.md)
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
+
 2. Play It Safe: Manage Security Risks
 3. Connect and Protect: Networks and Network Security
 4. Tools of the Trade: Linux and SQL
