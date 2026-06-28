@@ -37,3 +37,4 @@ I gain insight into how and why SIEM tools are changing to help protect organiza
 
 ## Next Steps
 Module 4
+- [Module 4: Use Playbooks to respond to the incident](Module_4.md)
