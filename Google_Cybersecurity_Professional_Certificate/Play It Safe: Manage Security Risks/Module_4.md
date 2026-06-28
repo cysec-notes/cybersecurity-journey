@@ -1,9 +1,10 @@
 # Module 4: Use Playbooks to respond to the incident
 ## Overview
+This module focuses in exploring playbooks that helps security team responds to threat,risk, vulnerabilities identify by siem tools, Also this module, introduce the six phase of incident response playbooks
 
 ## Learning Objectives
 After completing this module, I can:
-- Explore Playbooks helps security team responds to threat,risk, vulnerabilities identify by siem tools
+- Explore Playbooks 
 - Six phase of incident response
 
 ## Key Concepts Learned
@@ -19,12 +20,13 @@ A manual that provides details about any operation action. In a security field, 
 5. Post incident activty - documenenting incidents, informing organization leadership, appling lesson learned for future incident.
 6. Coordination - reporting incidents and sharing information throught the security rofessionals based on the established standars. Ensure compliance.
   
-## Skills Gained
-How siem tools used along side of playbooks. playbooks guide to mitigate issue in the incident while mainating accuracy. documenting. organization use different playbooks. new update improve to  address new threats and vulnerabilities. learn past incidents to improve security posture, refine policy and reduce likelihood of risk incidenrs. use playbooks when moitorin gand responding to incidents. If, for example, unusual user behavior is flagged by a SIEM tool, a playbook provides analysts with instructions about how to address the issue. 
+## Skills Gained Personal Reflection
+In this last module of the second course in the Google Cybersecurity Program, I learned about how SIEM tools are used alongside playbooks. Whereas playbooks are like a guide for every security professional that mitigates issues in an incident while maintaining accuracy.
 
-## Personal Reflection
+Additionally, from my understanding, organizations use different playbooks depending on their security policies, but they should be new or up‑to‑date to improve security and address new threats and vulnerabilities. It’s mentioned that learning from past incidents helps improve the security posture, refine policies, and reduce the likelihood of risk incidents.
 
+Using playbooks when monitoring and responding to incidents is essential throughout the incident. For example, unusual user behavior is flagged by a SIEM tool, and a playbook provides analysts with instructions on how to address the issue.
 
-## Next Steps
-[Module 4: Cybersecurity Tools & Programming Languages](Module_4.md)
+Lastly, I determined the different playbook phases in an incident response through different scenarios to strengthen my understanding.
+
 
