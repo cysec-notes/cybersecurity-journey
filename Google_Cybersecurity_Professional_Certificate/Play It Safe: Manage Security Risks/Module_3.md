@@ -18,8 +18,11 @@ As a security analyst, ​one of my responsibilities might include analyzing ​
   - Server logs - a record of ​events related to services such as websites, ​emails, or file shares. ​It includes actions such as login, ​password, and username requests. ​
 
 **Metrics** are key technical attributes such as response time, availability, and failure rate, which are used to assess the performance of a software application.
+
 **Security orchestration, automation, and response (SOAR**) is a collection of applications, tools, and workflows that uses automation to respond to security events
+
 **Splunk Enterprise** - A self-hosted tool used to retain, analyze, and search an organization log data to provide security information and alerts in real-time.
+
 **Splunk Clouds** - A cloud-hosted tool used to collect,search. and monitor log data.
 
 **Different types of SIEM tools**
