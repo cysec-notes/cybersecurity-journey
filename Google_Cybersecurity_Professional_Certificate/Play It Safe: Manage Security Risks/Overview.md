@@ -18,4 +18,5 @@ In this part of the program, I learned about the focus of the nine **Certified I
 - [Module 4: Use Playbooks to respond to the incident](Module_4.md)
  
 ## Certificate of Completion
-![Uploading image.png…]()
+<img width="867" height="675" alt="image" src="https://github.com/user-attachments/assets/4cb0cfec-e8ca-44fa-8723-5205dd63c07d" />
+
