@@ -46,6 +46,6 @@ I also did the security audit activity that demonstrates my ability to select co
 
 ## Next Steps
 Continue Course 1 Module 3
-
+- [Module 3: Security information and event management (SIEM) dashboards](Module_3.md)
 
 
