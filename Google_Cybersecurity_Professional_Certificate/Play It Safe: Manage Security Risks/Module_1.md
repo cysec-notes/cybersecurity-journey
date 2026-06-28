@@ -50,7 +50,6 @@ After understanding the functionality of eight security domains, I gained knowle
 
 ## Next Steps
 Continue Course 1 Module 2
-
-[Module 2: The Evolution of Cybersecurity](Module_2.md)
+- [Module 2: Security Frameworks and Control](Module_2.md)
 
 
