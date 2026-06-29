@@ -1,4 +1,6 @@
 # Cybersecurity Journey
+An ambitious computer engineering student who is actively building cybersecurity skills through both academic work and hands-on practice, with a strong focus on learning fundamentals and developing real-world technical abilities.
+
 This repository documents my ongoing journey in Cybersecurity fundamentals. It contains notes, hands-on lab exercises, and practice projects focused on building skills.
 
 ## 👤 About Me
