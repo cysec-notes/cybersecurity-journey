@@ -29,7 +29,7 @@ is the use of digital communications to trick people into revealing sensitive da
 - Spear phishing - malicious email attack targeting a specific user or group of users that appears to originate from a trusted source.
 - Whaling - A form of spear phishing during which threat actors target executives in order to gain access to sensitive data
 - Business email compromise (BEC) - An attack in which a threat actor impersonates a known source to obtain a financial advantage.
-- Vishing - oice communication to obtain sensitive information or to impersonate a known source.
+- Vishing - voice communication to obtain sensitive information or to impersonate a known source.
 - Social engineering - A manipulation technique that exploits human error to gain unauthorized access to sensitive, private, and/or valuable data.
 - Social media phishing - An attack in which a threat actor collects detailed information about their target on social media sites before initiating an attack.
 - Watering hole attack - An attack in which a threat actor compromises a website frequently visited by a specific group of users
