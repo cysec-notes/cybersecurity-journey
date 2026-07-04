@@ -4,7 +4,9 @@ You will understand types of network attacks and techniques used to secure compr
 
 ## Learning Objectives
 After completing this module, I can:
-- 
+- Network Security
+- Network intrusion tactics
+- Network attack protection
 
 ## Key Concepts Learned
 **Botnet**: A collection of computers infected by malware that are under the control of a single threat actor, known as the “bot-herder"
@@ -28,8 +30,7 @@ Types of DoS attack:
 3. Smurf attack: A network attack performed when an attacker sniffs an authorized user’s IP address and floods it with ICMP packets
 
 ## Personal Reflection
-
-
+In this module I discovered some network attacks, its negative impact, and how to prevent those attacks. One of the negative impact of network attaks are; financial loss, reputation damage to the organization, and public safety  (attack → disruption → loss of trust → migration to competitors → long-term damage to the original organization). I learned how VPN was important to secure our data packets across networks so that if some malicious actors capture our packet, the sensitive information will not disclosed because of enncryption. Preventing a DoS or DDoS attack can also be avoide through firewall configuration, to blocked suspicious activity (source IP add). I learn to read events in a logs from tcpdump and wireshark. This module also provide a comprehensive practice about network analysis and incident report using tools for capturing data packets (tcpdumps & wiresharks). Lastly, I learn how to analyze and response to a cyber attack incidents. 
 ## Next Steps
 Continue Course 1 Module 2
 
