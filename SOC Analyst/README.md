@@ -37,7 +37,7 @@ Core responsibilities include:
 
 | Status | Lab | Skills |
 |---------|-----|--------|
-| ✅ | Linux Authentication Log Analysis | journalctl, grep, SSH, sudo, Linux Logs |
+| ✅ | Investigating Linux Authentication Logs | journalctl, grep, SSH, sudo, Linux Logs |
 | ⏳ | Splunk Log Analysis | SIEM, Search Processing Language (SPL) |
 | ⏳ | DNS Investigation | DNS, IOC Analysis |
 | ⏳ | Wireshark Packet Analysis | Packet Inspection, TCP/IP |
