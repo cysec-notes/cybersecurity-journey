@@ -19,16 +19,16 @@ After completing this module, I can learn about:
 7. **WPA** is a wireless security protocol for devices to connect to the internet.
 8. A **firewall** is a network security device that monitors traffic to and from your network.
 9. A firewall can use **port filtering**, which blocks or allows certain port numbers to limit unwanted communication.
-10. **Stateful** refers to a class of firewall that keeps track of information passing through it and proactively filters out threats.
-11. **Stateless** refers to a class of firewall that operates based on predefined rules and does not keep track of information from data packets.
-12. **Encapsulation** is a process performed by a VPN service that protects your data by wrapping sensitive data in other data packets.
+ **Stateful** refers to a class of firewall that keeps track of information passing through it and proactively filters out threats.
+ **Stateless** refers to a class of firewall that operates based on predefined rules and does not keep track of information from data packets.
+10. **Encapsulation** is a process performed by a VPN service that protects your data by wrapping sensitive data in other data packets.
     Please note that most websites today use HTTPS. This encrypts the data being transferred between your device and the website. This makes it harder to intercept personal information even if internet traffic can be seen. A VPN encrypts all your internet traffic which helps protect your privacy.
-12. A **virtual private network,** also known as a **VPN**, is a network security service that changes your public IP address and hides  your virtual location so that you can keep your data private when you're using a public.
-13. **Security zones** are a segment of a network that protects the internal network from the internet. They are a part of a security technique called **network segmentation** that divides the network into segments.
+11. A **virtual private network,** also known as a **VPN**, is a network security service that changes your public IP address and hides  your virtual location so that you can keep your data private when you're using a public.
+12. **Security zones** are a segment of a network that protects the internal network from the internet. They are a part of a security technique called **network segmentation** that divides the network into segments.
     2 types of security zone:
     1. uncontrolled zone, which is any network outside of the organization's control, like the internet.
     2. controlled zone, which is a subnet that protects the internal network from the uncontrolled zone.
-14. **proxy server** is a server that fulfills the request of a client by forwarding them on to other servers.
+13. **proxy server** is a server that fulfills the request of a client by forwarding them on to other servers.
     Different kinds of proxy:
     - A **forward proxy server** regulates and restricts a person with access to the internet.
     - A **reverse proxy server** regulates and restricts the internet access to an internal server.
