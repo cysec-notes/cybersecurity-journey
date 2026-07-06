@@ -23,12 +23,9 @@ By the end of this lab, I should be able to:
 
 ### <span style="color:rgb(255, 192, 0)">Story (Real-World Scenario | 3rd person POV)</span>
 
-You are a Tier 1 SOC Analyst at a company. 
-
-At 11:00 AM, the Security Operations Center receives this alert: 
+You are a Tier 1 SOC Analyst at a company. At 11:00 AM, the Security Operations Center receives this alert: 
 
 <span style="color:rgb(255, 0, 0)">"Multiple authentication events were detected on the Linux server overnight."</span>
-
 
 Your team lead asks:
 
@@ -53,7 +50,8 @@ Success logins, failed login, sudo, ssh login, su
 I am using **Kali Linux with `systemd-journald` (no `rsyslog`)**, authentication logs are stored in the **systemd journal**, not in `/var/log/auth.log`
 
 ### <span style="color:rgb(255, 192, 0)">Checking if the system-journald is running:</span>
-![[Pasted image 20260702175846.png]]
+![Uploading Pasted image 20260702175846.png…]()
+
 *system is active and running and ready to be collect.*
 
 ### <span style="color:rgb(255, 192, 0)">Generate authentication events ( as attacker)</span>
