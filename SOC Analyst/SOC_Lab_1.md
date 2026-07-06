@@ -49,8 +49,10 @@ Success logins, failed login, sudo, ssh login, su
 **Where does Linux keep authentication events?** 
 I am using **Kali Linux with `systemd-journald` (no `rsyslog`)**, authentication logs are stored in the **systemd journal**, not in `/var/log/auth.log`
 
+---
+
 ### <span style="color:rgb(255, 192, 0)">Checking if the system-journald is running:</span>
-![Uploading Pasted image 20260702175846.png…]()
+
 
 *system is active and running and ready to be collect.*
 
