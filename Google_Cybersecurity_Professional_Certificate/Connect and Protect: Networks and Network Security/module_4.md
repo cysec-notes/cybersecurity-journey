@@ -55,6 +55,20 @@ Some of the common security methods used to prevent brute force attacks include:
 - Disallowing previous passwords from being used
 - Limiting the number of login attempts
 
+### Network hardening practices
+- Port filtering
+- Network Access Priveledge
+- Encryption
+
+Network log analysis is the process of examining network logs to identify events of interest.
+
+A SIEM tool is an application that collects and analyzes log data to monitor critical activities in an organization.
+
+Port filtering is a firewall function that blocks or allows certain port numbers to limit unwanted communication.
+
+
+
+
 ## Personal Reflection
 Examples of security hardening installing cctv, update patches, ensure encryption, conduct regualr penetration testing, strong password policy, 
 
