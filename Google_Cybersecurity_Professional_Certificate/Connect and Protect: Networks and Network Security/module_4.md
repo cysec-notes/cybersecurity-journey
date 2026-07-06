@@ -66,11 +66,32 @@ A SIEM tool is an application that collects and analyzes log data to monitor cri
 
 Port filtering is a firewall function that blocks or allows certain port numbers to limit unwanted communication.
 
+Firewall rules maintenance: 
+Network log analysis:
+Network segmentation: 
+Encryption
 
+An intrusion detection system (IDS) is an application that monitors system activity and alerts on possible intrusions.
+
+An intrusion prevention system (IPS) is an application that monitors system activity for intrusive activity and takes action to stop the activity. It offers even more protection than an IDS because it actively stops anomalies when they are detected, unlike the IDS that simply reports the anomaly to a network administrator.
+
+### Cloud Network
+A **cloud network** is a collection of servers or computers that stores resources and data in a remote data center that can be accessed via the internet.
+
+Identity access management (IAM) is a collection of processes and technologies that helps organizations manage digital identities in their environment. 
 
 
 ## Personal Reflection
 Examples of security hardening installing cctv, update patches, ensure encryption, conduct regualr penetration testing, strong password policy, 
+As a security analyst, you may be responsible for initiating network security practices. Making executive decisions about which tools to use based on what you know about certain vulnerabilities will be a starting point for helping the organization improve its network security. Explaining and documenting your decisions as a cybersecurity analyst will help in the future if the network ever needs to be troubleshooted. It will also help give non-technical employees buy-in and help them follow security practices, such as multifactor authentication. 
+
+Some common cloud security hardening techniques
+1. Identity access management (IAM) is a collection of processes and technologies that helps organizations manage digital identities in their environment. This service also authorizes how users can leverage different cloud resources.
+2. Hypervisor abstracts the host’s hardware from the operating software environment. There are two types of hypervisors. Type one hypervisors run on the hardware of the host computer. Type two hypervisors operate on the software of the host computer
+3. Baselining for cloud networks and operations cover how the cloud environment is configured and set up.
+4. Cryptography can be applied to secure data that is processed and stored in a cloud environment. Cryptography uses encryption and secure key management systems to provide data integrity and confidentiality. Cryptographic encryption is one of the key ways to secure sensitive data and information in the cloud.
+5. Cryptographic erasure is a method of erasing the encryption key for the encrypted data. When destroying data in the cloud, more traditional methods of data destruction are not as effective. Crypto-shredding is a newer technique where the cryptographic keys used for decrypting the data are destroyed.
+
 
 
 ## Next Steps
