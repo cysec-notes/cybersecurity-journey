@@ -1,6 +1,6 @@
 
 ---
-
+# SOC Lab 1 – Investigating Linux Authentication Logs
 From the TryHackMe platform and its available walkthrough rooms, I familiarized myself first with some concepts and fundamentals of log management, types, format, collection, storage, etc. to prepare for this lab. Before delving into actual SIEM tools used by SOC analysts such as Splunk, I understand first what is logs, how it works, where it stores, and how to analyze using Linux commands. 
 
 As a beginner, I created this hands-on lab to gain knowledge, familiarize myself, learn through experience like in a real world scenario and  discover commands using the Linux system.
