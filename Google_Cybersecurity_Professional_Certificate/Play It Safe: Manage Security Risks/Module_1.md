@@ -30,6 +30,8 @@ An orgaization ability to manage its defense of critical assets and data, and re
 **Risk** - is anything can impoact the confidentiality, integrity, and availability of assets.
 **Vulnerability** - a weaknesses that can be exploit by a threat.
 
+There are five core functions of the **NIST CSF framework**: identify, protect, detect, respond, and recover.
+
 ## steps in Risk Management framework
 1. Prepare - related to activities that are necessary to manage security and privacy risks before a breach occurs
 2. Categorize - used to develop risk management processes and tasks
