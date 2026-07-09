@@ -11,6 +11,12 @@ After completing this module, I can:
 - Compare a graphical user interface to a command line interface.
 
 ## Key Concepts Learned
+#### What is Operating System (OS)
+ OS is he interface between the computer hardware and the user
+
+Hardware refers to the physical components of a computer.
+
+A legacy operating system is an operating system that is outdated but still being used. 
 
 
 ## Personal Reflection
