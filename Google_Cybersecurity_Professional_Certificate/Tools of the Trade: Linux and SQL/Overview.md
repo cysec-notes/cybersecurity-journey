@@ -19,7 +19,7 @@ By the end of this course, you will:
 - Use SQL to retrieve information from a database
 
 ### Skills and tools I will learn in this journey:
--SQL
+- SQL
 - Authentications
 - User Accounts
 - Database Management
