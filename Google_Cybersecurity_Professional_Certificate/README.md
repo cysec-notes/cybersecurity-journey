@@ -40,7 +40,9 @@ In this certificate program, I will have multiple opportunities to develop a pro
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
 
 2.[Play It Safe: Manage Security Risks](./Play%20It%20Safe:%20Manage%20Security%20Risks/Overview.md) - Identify how cybersecurity professionals use frameworks and controls to protect business operations, and explore common cybersecurity tools.
-3. Connect and Protect: Networks and Network Security - Gain an understanding of network-level vulnerabilities and how to secure networks.
+
+3. 3. [Connect and Protect: Networks and Network Security](./Foundations%20of%20Cybersecurity/Connect%20and%20Protect:%20Networks%20and%20Network%20Security/Overview.md) - Gain an understanding of network-level vulnerabilities and how to secure networks.
+
 4. Tools of the Trade: Linux and SQL - Explore foundational computing skills, including communicating with the Linux operating system through the command line and querying databases with SQL.
 5. Assets, Threats, and Vulnerabilities - Learn about the importance of security controls and developing a threat actor mindset to protect and defend an organization’s assets from various threats, risks, and vulnerabilities.
 6. Sound the Alarm: Detection and Response - Understand the incident response lifecycle and practice using tools to detect and respond to cybersecurity incidents.
