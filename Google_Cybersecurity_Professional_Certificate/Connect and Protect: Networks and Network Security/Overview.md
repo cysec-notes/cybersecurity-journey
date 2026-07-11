@@ -24,10 +24,10 @@ By the end of this course, I will:
 - Firewall
 
 ### Foundations of Cybersecurity
-- [Module 1: Network Architecture](Module_1.md)
-- [Module 2: Network Operations](Module_2.md)
-- [Module 3: Secure Against Network Intrussion](Module_3.md)
-- [Module 4: Security Hardening](Module_4.md)
+- [Module 1: Network Architecture](module_1.md)
+- [Module 2: Network Operations](module_2.md)
+- [Module 3: Secure Against Network Intrussion](module_3.md)
+- [Module 4: Security Hardening](module_4.md)
  
 ## Certificate of Completion
 <img width="862" height="667" alt="image" src="https://github.com/user-attachments/assets/0b9d4c21-1eac-4b1b-ac65-920709ae0415" />
