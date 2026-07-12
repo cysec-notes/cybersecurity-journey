@@ -91,26 +91,25 @@ The investigation included:
 ## Sample Screenshots
 
 ### Verifying the Logging Service
-
-![systemd-journald](screenshots/01-lab-setup.png)
+<img width="868" height="165" alt="image" src="https://github.com/user-attachments/assets/251ef6a8-4953-4f08-bd30-9839ac19271a" />
 
 ---
 
 ### Failed SSH Login
 
-![Failed SSH](screenshots/02-failed-login.png)
+<img width="943" height="248" alt="image" src="https://github.com/user-attachments/assets/3c678d13-f076-4e29-861c-0b936742b79e" />
 
 ---
 
 ### Successful SSH Login
 
-![Successful SSH](screenshots/03-successful-login.png)
+<img width="916" height="139" alt="image" src="https://github.com/user-attachments/assets/f478fac2-04d4-48cb-ae7a-2b0c41995f96" />
 
 ---
 
 ### Authentication Log Investigation
 
-![journalctl](screenshots/04-journalctl.png)
+<img width="934" height="211" alt="image" src="https://github.com/user-attachments/assets/65d86411-57c1-4352-8635-7152025ab6c3" />
 
 ---
 
