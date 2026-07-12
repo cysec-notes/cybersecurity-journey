@@ -128,7 +128,6 @@ The investigation included:
 ---
 
 ## Conclusion
-
 Although all authentication events were intentionally generated as part of this controlled laboratory exercise, the observed pattern closely resembles a brute-force or password guessing attack. In a production environment, this activity would warrant further investigation, including validating successful logins, reviewing affected accounts, and determining whether containment actions are required.
 
 ---
