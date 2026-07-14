@@ -37,15 +37,15 @@ In this certificate program, I will have multiple opportunities to develop a pro
 
 ### Portfolio Projects
 Creating a portfolio document based on provided activity by Google Cybersecurity Courses to demonstrate my experience, skills, knowledes in cybersecurity.
-● Drafting a professional statement
-● Conducting a security audit
-● Analyzing network structure and security
-● Using Linux commands to manage file permissions
-● Applying filters to SQL queries
-● Identifying vulnerabilities for a small business
-● Documenting incidents with an incident handler’s journal
-● Importing and parsing a text file in a security-related scenario
-● Creating or revising a resume
+- Drafting a professional statement
+- Conducting a security audit
+- Analyzing network structure and security
+- Using Linux commands to manage file permissions
+- Applying filters to SQL queries
+- Identifying vulnerabilities for a small business
+- Documenting incidents with an incident handler’s journal
+- Importing and parsing a text file in a security-related scenario
+- Creating or revising a resume
 
 
 ### The Google Cybersecurity Certificate program has nine courses:
