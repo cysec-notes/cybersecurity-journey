@@ -35,6 +35,10 @@ In this certificate program, I will have multiple opportunities to develop a pro
 - Linux
 - Python Programming
 
+### Portfolio Activity
+Creating a  portfolio document each courses to demonstrate my experience in cybersecurity
+
+
 ### The Google Cybersecurity Certificate program has nine courses:
 1. [Foundations of Cybersecurity](./Foundations%20of%20Cybersecurity/Overview.md) - Explore the cybersecurity profession, including significant events that led to the development of the cybersecurity field and its continued importance to organizational operations. Learn about entry-level cybersecurity roles and responsibilities. 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/7dc6cba8-bfad-4f71-af87-dc1c3557c2a4" />
