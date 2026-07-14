@@ -44,7 +44,30 @@ The root directory is the highest-level directory in Linux.
 6. **cp** copies a file or directory into a new location.
 7. **nano** is a command-line file editor that is available by default in many Linux distributions.
 
-    **>** overwrites your existing file, and **>>** adds your content to the end of the existing file instead of overwriting it.
+ **>** overwrites your existing file, and **>>** adds your content to the end of the existing file instead of overwriting it.
+
+#### File permissions and ownership
+**Authorization** is the concept of granting access to specific resources in a system. 
+
+1. **chmod** changes permissions on files and directories.
+   example: chmod u+rwx,g+rwx,o+rwx login_sessions.txt. 
+Three types of permissions in Linux
+1. read
+2. write
+3. executed
+
+Types of owners
+1. user (the owner of the file, but owner can be changed) = u
+2. group = g
+3. other = o
+
+Options modify the behavior of the command.
+
+**ls -l** displays permissions to files and directories.
+**ls -a** displays hidden files.
+**ls -la** displays permissions to files and directories, including hidden files.
+
+
 
 ## Next Steps
 Continue Course 1 Module 2
