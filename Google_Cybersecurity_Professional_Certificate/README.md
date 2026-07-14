@@ -36,7 +36,7 @@ In this certificate program, I will have multiple opportunities to develop a pro
 - Python Programming
 
 ### Portfolio Activity
-Creating a  portfolio document each courses to demonstrate my experience in cybersecurity
+Creating a portfolio document based on provided activity by Google Cybersecurity Courses to demonstrate my experience, skills, knowledes in cybersecurity.
 
 
 ### The Google Cybersecurity Certificate program has nine courses:
