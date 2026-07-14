@@ -1,4 +1,4 @@
-# Module 2: Tools of the Trade: Linux and SQL
+# Module 3: Tools of the Trade: Linux and SQL
 ## Overview
 This module introduces Linux commands as entered through the Bash shell. Learners will use Bash to navigate the file system, to manage it, and to authorize and authenticate users. They will also discover how they can independently get the support that they need to use additional Linux commands.
 
@@ -35,6 +35,16 @@ The root directory is the highest-level directory in Linux.
    **-name and -iname** - use with the **find** command to find file or directory names that contain a specific string. (-name is case-sensitive, and -iname is not.)
   **-mtime** - to find files or directories last modified within a certain time frame, using **find** commands.
    
+#### Create and modify directories and files
+1. **mkdir** command creates a new directory.
+2. **rmdir** removes or deletes a directory.
+3. **touch** command creates a new file,
+4. **rm** command removes or deletes a file.
+5. **mv** command moves a file or directory to new location, also used to rename files.
+6. **cp** copies a file or directory into a new location.
+7. **nano** is a command-line file editor that is available by default in many Linux distributions.
+
+    **>** overwrites your existing file, and **>>** adds your content to the end of the existing file instead of overwriting it.
 
 ## Next Steps
 Continue Course 1 Module 2
