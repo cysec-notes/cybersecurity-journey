@@ -67,8 +67,32 @@ Options modify the behavior of the command.
 **ls -a** displays hidden files.
 **ls -la** displays permissions to files and directories, including hidden files.
 
+#### Add and delete users
+A root user, or superuser, is a user with elevated privileges to modify the system.
+1. **sudo** is a command that temporarily grants elevated permissions to specific users.
+2. **useradd** adds a user to the system
+ **-g**: Sets the user’s default group, also called their primary group. To use the -g option, the primary group must be specified after -g. For example, entering sudo useradd -g security fgarcia adds fgarcia as a new user and assigns their primary group to be security.
+   
+**-G**: Adds the user to additional groups, also called supplemental or secondary groups. To use the -G option, the supplemental group must be passed into the command after -G. You can add more than one supplemental group at a time with the -G option. Entering sudo useradd -G finance,admin fgarcia adds fgarcia as a new user and adds them to the existing finance and admin groups.
 
+3. **userdel**. userdel deletes a user from the system.
+    userdel -r: delete user and all files in their home directory.
+   usermod -L: deactivitang account
+4. The **usermod** command modifies existing user accounts.
+-d: Changes the user’s home directory.
 
+-l: Changes the user’s login name.
+
+-L: Locks the account so the user can’t log in.
+
+-a: appends the user to an existing group 
+
+5. **chown** commands changes ownership of a file or directory.
+
+#### Man pages
+1. **man**. man displays information on other commands and how they work.
+2. **whatis** displays a description of a command on a single line.
+3. **apropos** searches the manual page descriptions for a specified string.
 ## Next Steps
 Continue Course 1 Module 2
 
