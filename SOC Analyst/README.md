@@ -38,11 +38,17 @@ Core responsibilities include:
 | Status | Lab | Skills |
 |---------|-----|--------|
 | ✅ | [Investigating Linux Authentication Logs](Linux-Authentication-Logs/README.md) | journalctl, grep, SSH, sudo, Linux Logs |
-| ⏳ | Splunk Log Analysis | SIEM, Search Processing Language (SPL) |
+| ⏳ | Splunk Log Analysis (Web Attack Investigation) | SIEM, Search Processing Language (SPL) |
+| ⏳ | Windows Event Log Investigation | Windows Event IDs |
+| ⏳ | Brute Force Detection in Splunk | Detection engineering |
+| ⏳ | Malware Infection Investigation | IOC analysis |
+| ⏳ | Phishing Email Investigation | Email headers|
 | ⏳ | DNS Investigation | DNS, IOC Analysis |
 | ⏳ | Wireshark Packet Analysis | Packet Inspection, TCP/IP |
 | ⏳ | Windows Event Log Analysis | Event Viewer, Security Logs |
-| ⏳ | Incident Investigation | Log Correlation |
+| ⏳ | Incident Investigation | Log Correlation, Reporting |
+
+
 
 ---
 
