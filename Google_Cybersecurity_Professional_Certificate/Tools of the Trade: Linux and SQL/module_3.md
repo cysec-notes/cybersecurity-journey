@@ -93,6 +93,10 @@ A root user, or superuser, is a user with elevated privileges to modify the syst
 1. **man**. man displays information on other commands and how they work.
 2. **whatis** displays a description of a command on a single line.
 3. **apropos** searches the manual page descriptions for a specified string.
+
+#### Personal Reflection
+In this module, I learn hhow to use linux commands for navigating, viewing contents, change or add permissions and ownership, modify, delete, and helping resources.
+
 ## Next Steps
 Continue Course 1 Module 2
 
