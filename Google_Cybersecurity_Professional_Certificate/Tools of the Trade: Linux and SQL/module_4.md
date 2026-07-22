@@ -28,9 +28,11 @@ The **foreign key** is a column in a table that is a primary key in another tabl
 **WHERE** indicates the condition for a filter.
 
 **LIKE** is an operator used with WHERE to search for a pattern in a column. for example; 
+
 ``text
 WHERE username LIKE 'a%';
 ```
+
 contains the correct syntax to return all records that contain a value in the username column that starts with the character 'a'. The LIKE operator is used with WHERE to search for a pattern in a column. The % wildcard substitutes for any number of other characters.
 
 **Syntax** refers to the rules that determine what is correctly structured in a computing language.
@@ -38,17 +40,21 @@ contains the correct syntax to return all records that contain a value in the us
 **ORDER BY** sequences the records returned by a query based on a specified column or columns. This can be in either ascending or descending order.
 1. Sorting in ascending order
   example:
+
 ```text
 SELECT customerid, city, country
 FROM customers
 ORDER BY city;
 ```
+
 2. Sorting in descending order
+   
    ```text
 SELECT customerid, city, country
 FROM customers
 ORDER BY city DESC;
 ```
+
 3. Sorting based on multiple columns
  ```text
 SELECT customerid, city, country
