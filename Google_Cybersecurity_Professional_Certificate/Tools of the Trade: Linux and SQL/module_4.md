@@ -48,14 +48,15 @@ ORDER BY city;
 ```
 
 2. Sorting in descending order
-   
-   ```text
+
+```text
 SELECT customerid, city, country
 FROM customers
 ORDER BY city DESC;
 ```
 
 3. Sorting based on multiple columns
+
  ```text
 SELECT customerid, city, country
 FROM customers
