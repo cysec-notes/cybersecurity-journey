@@ -29,7 +29,7 @@ The **foreign key** is a column in a table that is a primary key in another tabl
 
 **LIKE** is an operator used with WHERE to search for a pattern in a column. for example; 
 
-``text
+```text
 WHERE username LIKE 'a%';
 ```
 
