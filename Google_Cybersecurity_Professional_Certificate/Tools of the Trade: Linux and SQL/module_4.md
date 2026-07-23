@@ -78,6 +78,11 @@ Common Data types
 **BETWEEN** is an operator that filters for numbers or dates within a range.
 Note: The BETWEEN operator is inclusive.
 
+#### Filters with AND, OR, and NOT
+1. **AND** is an operator that specifies that both conditions must be met simultaneously.
+2. The **OR** operator is an operator that specifies that either condition can be met.
+3. **NOT** negates a condition.
+
 
 ## Skills Gained 
 Using SQL commands to:
@@ -87,7 +92,7 @@ Using SQL commands to:
 - apply the WHERE clause to filter what a SQL query returns and
 - use the LIKE operator to filter for patterns.
 - Filter for login attempts made after a certain date
-
+- apply AND, OR, and NOT operators to filter SQL queries.
 ## Personal Reflection
 
 
