@@ -65,6 +65,20 @@ ORDER BY country, city;
 #### Basic filters on SQL queries
 **Filtering** is selecting data that match a certain condition.
 An **operator** is a symbol or keyword that represents an operation.
+
+
+#### Filter dates and numbers
+Common Data types
+1. string - is data consisting of an ordered sequence of characters. for example: user names, such as a user name: analyst10.
+2. numeric - is data consisting of numbers, such as a count of log-in attempts.
+3. date and time - data refers to data representing a date and/or time
+
+**Date and Time operators:** =, <, >, <>, >=, <=
+
+**BETWEEN** is an operator that filters for numbers or dates within a range.
+Note: The BETWEEN operator is inclusive.
+
+
 ## Skills Gained 
 Using SQL commands to:
 - select specific columns from a table,
@@ -72,6 +86,7 @@ Using SQL commands to:
 - sort query results using the ORDER BY keyword.
 - apply the WHERE clause to filter what a SQL query returns and
 - use the LIKE operator to filter for patterns.
+- Filter for login attempts made after a certain date
 
 ## Personal Reflection
 
