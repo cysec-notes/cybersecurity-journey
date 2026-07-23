@@ -1,4 +1,4 @@
-# Module 4:
+<img width="637" height="160" alt="image" src="https://github.com/user-attachments/assets/e9e7601d-0bbe-4dd3-b119-e59f4235bd52" /># Module 4:
 ## Overview
 In this module, learners will learn how to use SQL to communicate with databases. They will learn how to query a database and filter the results. They will also learn how SQL can join multiple tables together in a query.
 
@@ -83,6 +83,26 @@ Note: The BETWEEN operator is inclusive.
 2. The **OR** operator is an operator that specifies that either condition can be met.
 3. **NOT** negates a condition.
 
+### Join tables in SQL
+1. **INNER JOIN** returns rows matching on a specified column that exists in more than one table.
+
+**Types of Outer Joints**
+**Outer joins** also return rows that don't match on the specified column.
+
+1. LEFT JOIN - returns all of the records of the first table, but only returns rows of the second table that match on a specified column.
+2. RIGHT JOIN - returns all of the records of the second table but only returns rows from the first table that match on a specified column.
+3. FULL OUTER JOIN - returns all records from both tables.
+
+Example:
+- INNER JOIN:
+```text
+SELECT machines.device_id, employees.username, machines.operating_system
+FROM machines
+INNER JOIN  employees ON machines.device_id = employees.device_id;
+```
+
+
+
 
 ## Skills Gained 
 Using SQL commands to:
@@ -93,6 +113,9 @@ Using SQL commands to:
 - use the LIKE operator to filter for patterns.
 - Filter for login attempts made after a certain date
 - apply AND, OR, and NOT operators to filter SQL queries.
+- have practical experience in using INNER JOIN, LEFT JOIN, and RIGHT JOIN.
+
+
 ## Personal Reflection
 
 
