@@ -46,6 +46,6 @@ By the end of this course, you will:
 - [Module 4: Security Hardening](Module_4.md)
  
 ## Certificate of Completion
-
+<img width="870" height="677" alt="image" src="https://github.com/user-attachments/assets/02a47d2e-1144-4432-811f-ebe1e2137186" />
 
 
