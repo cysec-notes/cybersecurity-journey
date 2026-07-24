@@ -1,11 +1,11 @@
-<img width="637" height="160" alt="image" src="https://github.com/user-attachments/assets/e9e7601d-0bbe-4dd3-b119-e59f4235bd52" /># Module 4:
+# Module 4:
 ## Overview
 In this module, learners will learn how to use SQL to communicate with databases. They will learn how to query a database and filter the results. They will also learn how SQL can join multiple tables together in a query.
 
 ## Learning Objectives
 After completing this module, I can:
 - Discuss how SQL is used within the security profession.
-- Describe how a relational database is organized.
+- Describe how a **relational database** is organized.
 - Use SQL to retrieve information from a database.
 - Apply filters to SQL queries.
 - Use SQL joins to combine multiple tables into a query.
@@ -82,6 +82,13 @@ Note: The BETWEEN operator is inclusive.
 1. **AND** is an operator that specifies that both conditions must be met simultaneously.
 2. The **OR** operator is an operator that specifies that either condition can be met.
 3. **NOT** negates a condition.
+4. To find records where a column is **NULL** in SQL, use the **IS NULL** operator in your WHERE clause.
+```text
+SELECT patch_id, patch_applied_date, system_id 
+FROM system_patches 
+LEFT JOIN system ON system_patches.system_id = system.system_id 
+WHERE patch_id IS NULL OR (patch_id = 'CRITICAL_PATCH_XYZ' AND patch_applied_date > '2023-10-26';
+```
 
 ### Join tables in SQL
 1. **INNER JOIN** returns rows matching on a specified column that exists in more than one table.
@@ -101,8 +108,16 @@ FROM machines
 INNER JOIN  employees ON machines.device_id = employees.device_id;
 ```
 
+### Aggregate functions
+In SQL, aggregate functions are functions that perform a calculation over multiple data points and return the result of the calculation. The actual data is not returned. 
 
+There are various aggregate functions that perform different calculations:
 
+1. **COUNT** returns a single number that represents the number of rows returned from your query.
+Ex: SELECT COUNT(firstname) FROM customers;
+AVG returns a single number that represents the average of the numerical data in a column.
+
+SUM returns a single number that represents the sum of the numerical data in a column. 
 
 ## Skills Gained 
 Using SQL commands to:
@@ -114,6 +129,23 @@ Using SQL commands to:
 - Filter for login attempts made after a certain date
 - apply AND, OR, and NOT operators to filter SQL queries.
 - have practical experience in using INNER JOIN, LEFT JOIN, and RIGHT JOIN.
+
+## Explore SQL applications in security
+During the session covering SQL's role in security and relational database organization, focused on:
+- Identifying where security-related data is stored.
+- Connecting SQL to various security tasks.
+- Applying SQL to specific security scenarios like investigating failed logins and missing patches.
+- Exploring broader uses of SQL in cybersecurity.
+
+My strengths:
+- I demonstrated a clear understanding of how SQL queries can be constructed to extract specific information for security investigations.
+- I effectively connected SQL's capabilities to practical cybersecurity tasks and scenarios.
+
+Areas for improvement:
+- Paying close attention to the precise syntax and logical structure of complex SQL queries, especially when combining multiple conditions or using LEFT JOIN with NULL checks, to ensure they accurately capture the intended data.
+
+
+
 
 
 ## Personal Reflection
