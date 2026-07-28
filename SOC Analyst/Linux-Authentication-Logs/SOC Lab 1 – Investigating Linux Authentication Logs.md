@@ -1,7 +1,5 @@
 # Investigation Report — Linux Auth Log Review
-Date: July 03, 2026
-
-Analyst: Cyrish Lerio
+Date: July 03, 2026 | Analyst: Cyrish Lerio
 
 ### Summary
 In this hands-on controlled lab, I intentionally generated authentication events to produce logs for analysis using Linux commands to investigate like a SOC Analyst in a pretend real-life situations. To determine whether these authentication events are normal user activity or something suspicious.
