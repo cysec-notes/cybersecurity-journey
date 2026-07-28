@@ -14,7 +14,7 @@ Today is Alice's first day at the Wayne Enterprises' Security Operations Center.
 - Find any unauthorized access
 - Identify Indicator of Compromise (IoC)
 
-## Skills
+## Skills develop
 - SPL & Splunk searching
 - Threat Hunting
 - IOC Analysis
