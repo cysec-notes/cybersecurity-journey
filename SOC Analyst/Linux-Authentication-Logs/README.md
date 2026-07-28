@@ -62,6 +62,7 @@ To produce realistic log data, I intentionally generated:
 - Failed sudo authentication
 
 These events were later investigated using Linux log analysis techniques.
+You can see how I generate authentication events ( as attacker) here.
 
 ---
 
