@@ -12,7 +12,7 @@ By the end of this course, you will:
 - Use SQL to retrieve information from a database.
 - Apply filters to SQL queries and use joins to combine multiple tables.
   
-### Course Leaning:
+### Course Learning:
 - Explain the relationship between operating systems, applications, and hardware
 - Compare a graphical user interface to a command line interface
 - Navigate and manage the file system using Linux commands via the Bash shell
