@@ -33,7 +33,7 @@ Successful logins:
 - All source IP(s): 127.0.0.1 (this is only a test)
 
  ### Assessment
-Since I generated different login attempt, the logs results show rapid authentication login attempts within a short period. These include multiple failed or success login attempts where both valid and non-existent usernames is from a single IP address (127.0.0.1) that targeting accounts. This pattern resembles a password guessing or brute-force attack. Even though the activity is from localhost as part of a controlled lab, the severity is medium because this can be a similar behavior of malicious activity. Therefore, to determine whether the successful logins were authorized or not, this log analysis should be flagged as suspicious and needs further investigation.
+Since, I generated different login attempt, the logs results show rapid authentication login attempts within a short period. These include multiple failed or success login attempts where both valid and non-existent usernames is from a single IP address (127.0.0.1) that targeting accounts. This pattern resembles a password guessing or brute-force attack. Even though the activity is from localhost as part of a controlled lab, the severity is medium because this can be a similar behavior of malicious activity. Therefore, to determine whether the successful logins were authorized or not, this log analysis should be flagged as suspicious and needs further investigation.
 
 ### Evidence
 Let's check in the journalctl if logs was generate to verify that the events were successfully recorded.
