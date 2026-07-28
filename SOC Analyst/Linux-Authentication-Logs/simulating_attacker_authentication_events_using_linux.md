@@ -23,7 +23,7 @@ These events were later examined through Linux log analysis, providing clear vis
 
 - _system is active and running and ready to be collect._
 
-  ### Generate authentication events ( as attacker)
+### Generate authentication events ( as attacker)
   I open the two terminals in my linux. One to generate events, one is to investigate.
 
 *Failed local login attempts*
