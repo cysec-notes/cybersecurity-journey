@@ -20,40 +20,50 @@ Example:
 
 ### Findings
 Total failed attempts:
+
 <img width="358" height="120" alt="image" src="https://github.com/user-attachments/assets/ab18a443-e05a-41c7-b324-eebb680d9766" />
 
 Usernames targeted: 
+
 <img width="763" height="214" alt="image" src="https://github.com/user-attachments/assets/5fc58c29-7f2c-445e-ab22-4156a13fb0fe" />
 
 Successful logins: 
+
 <img width="810" height="190" alt="image" src="https://github.com/user-attachments/assets/3eb4fcc2-2897-4ec5-8ec0-e2f3ef7978ec" />
- All source IP(s): 127.0.0.1 (this is only a test)
+- All source IP(s): 127.0.0.1 (this is only a test)
 
  ### Assessment
 Since I generated different login attempt, the logs results show rapid authentication login attempts within a short period. These include multiple failed or success login attempts where both valid and non-existent usernames is from a single IP address (127.0.0.1) that targeting accounts. This pattern resembles a password guessing or brute-force attack. Even though the activity is from localhost as part of a controlled lab, the severity is medium because this can be a similar behavior of malicious activity. Therefore, to determine whether the successful logins were authorized or not, this log analysis should be flagged as suspicious and needs further investigation.
 
 ### Evidence
-
 Let's check in the journalctl if logs was generate to verify that the events were successfully recorded.
+
 <img width="945" height="211" alt="image" src="https://github.com/user-attachments/assets/d2630629-bc67-434f-9680-a1dadd197938" />
+
 - _Confirmed it collects and records the event and shows authentication event_
 
 Success:
+
 <img width="765" height="162" alt="image" src="https://github.com/user-attachments/assets/e03673da-ca60-4447-b7a0-29646962d88a" />
 
 Failures (failed password/incorrect password):
+
 <img width="953" height="268" alt="image" src="https://github.com/user-attachments/assets/6162ccf8-598b-48e1-9c49-3c51a0997580" />
 
 Su/sudo outcomes if authentication failure or session opened
+
 <img width="946" height="171" alt="image" src="https://github.com/user-attachments/assets/01805869-63e3-4088-9df0-eb7e11fce22a" />
 
 Failed login attempts by username in ssh
+
 <img width="246" height="134" alt="image" src="https://github.com/user-attachments/assets/6ac32fab-daae-49dc-93d2-8801bf33af4d" />
 
 Failed login attempts by source IP
+
 <img width="470" height="127" alt="image" src="https://github.com/user-attachments/assets/ea4447cb-4995-4d0b-a260-2c4cb64d1739" />
 
 Successful logins by username
+
 <img width="470" height="141" alt="image" src="https://github.com/user-attachments/assets/83aace38-2533-49e6-b208-62c470cf9fa7" />
 
 ### Recommendation
