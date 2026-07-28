@@ -135,5 +135,5 @@ Although all authentication events were intentionally generated as part of this 
 ## Full Documentation
 
 📄 **Complete investigation report (pdf):**  
-[SOC LAB 1: Investigating Linux Authentication Logs](SOC LAB 1: Investigating Linux Authentication Logs.md)
+[SOC Lab 1: Investigating Linux Authentication Logs](SOC%20Lab%201%20%E2%80%93%20Investigating%20Linux%20Authentication%20Logs.md)
 
