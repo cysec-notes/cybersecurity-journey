@@ -38,7 +38,7 @@ Core responsibilities include:
 | Status | Lab | Skills |
 |---------|-----|--------|
 | ✅ | [Investigating Linux Authentication Logs](Linux-Authentication-Logs/README.md) | journalctl, grep, SSH, sudo, Linux Logs |
-| ✅ | [Boss of the SOC v1 – Scenario 1: Web Defacement Investigation) | Splunk, SPL, Web Logs, IOC Analysis, Incident Investigation |
+| ✅ | Boss of the SOC v1 – Scenario 1: Web Defacement Investigation | Splunk, SPL, Web Logs, IOC Analysis, Incident Investigation |
 | ⏳ | Windows Event Log Investigation | Windows Event IDs |
 | ⏳ | Brute Force Detection in Splunk | Detection engineering |
 | ⏳ | Malware Infection Investigation | IOC analysis |
