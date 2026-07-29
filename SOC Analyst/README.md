@@ -31,6 +31,23 @@ Core responsibilities include:
 - CyberChef ⏳
 - Basic Digital Forensics ⏳
 
+Technical Skills:
+
+SIEM platforms (Splunk, ELK, QRadar)
+Network traffic analysis (Wireshark, tcpdump)
+Endpoint detection and response (EDR)
+Log aggregation and correlation
+Scripting (Python, PowerShell)
+Threat intelligence platforms
+
+Soft Skills:
+
+Critical thinking and problem-solving
+Communication (technical and non-technical)
+Documentation and reporting
+Time management under pressure
+Teamwork and collaboration
+
 ---
 
 ## Hands-on Labs
