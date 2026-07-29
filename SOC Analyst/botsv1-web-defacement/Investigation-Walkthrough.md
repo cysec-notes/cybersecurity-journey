@@ -117,8 +117,136 @@ This query searches all indexes for HTTP traffic from source IP 192.168.250.70, 
 
 - From the search result, the web server itself `192.168.250.70` (imreallynotbatman.com's own server) reached out to fetch this file  sent a `GET` request to  an external host `23.22.63.114` on port `1337`, pulling the defacement image down from the attacker's external hosting site `prankglassinebracket.jumpingcrab.com`. These second IP address `23.22.63.114` from question 1, where I found a suspicious one are confirmed really malicious.
 
+_Answer: poisonivy-is-coming-for-you-batman.jpeg_
+
 ##### Attach Chain Analysis:
 
-1. Attacker used web vulnerability scanner and found vulnerable in Joomla component flaw which later used  the vulnerability to exploits that let them get remote code execution or a remote file inclusion (RFI) on the server.  The victim server acts as the "puller," not the attacker as the "pusher."
+1. Attacker used web vulnerability scanner (Acunetix) and found vulnerable in Joomla component flaw which later used  the vulnerability to exploits that let them get remote code execution or a remote file inclusion (RFI) on the server.  The victim server acts as the "puller," not the attacker as the "pusher."
 2. Instead of directly uploading the file via a form, they made the compromised server itself fetch the malicious image from their own external server
 3. The website then served/displayed that fetched image, defacing the site.
+
+---
+
+**Question 5: This attack used dynamic DNS to resolve to the malicious IP. What fully qualified domain name (FQDN) is associated with this attack?**
+
+I tried to use the source type specifically the `stream:dns` but I have a difficult time to find the domain name. Instead, I still used the HTTP logs from source type `stream:http`. But we already found the domain name from the question 4. Anyways, let confirm using this spl commands:
+
+```
+index=botsv1 sourcetype=stream:http src_ip=192.168.250.70 dest_ip=23.22.63.114
+| rename site AS domain_name
+| table _time, domain_name, uri_path
+| sort _time
+```
+
+This query searches all indexes for HTTP traffic from the website IP `192.168.250.70` to malicious external IP `23.22.63.114` used by the attacker, rename the site as domain_name for easy identify the domain name, display it in a table, and sort by time.
+
+<img width="1807" height="573" alt="image" src="https://github.com/user-attachments/assets/96953ac9-abe0-4ff8-9960-0da10266fe5c" />
+
+- From the search result,  the domain name of the malicious IP `23.22.63.114` is the `prankglassinebracket.jumpingcrab.com:1337`. I can confirmed this is the right answer because under the uri_path the `poisonivy-is-coming-for-you-batman.jpeg` is the defacement image from the attacker's external hosting site.
+
+_Answer: prankglassinebracket.jumpingcrab.com:1337_
+
+---
+
+**Question 6: What IPv4 address has Po1s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises?**
+
+We already found the IPv4 address where Po1s0n1vy tied to domains.
+
+_Answer: 23.22.63.114_
+
+---
+
+**Question 7: What IPv4 address is likely attempting a brute force password attack against imreallynotbatman.com?**
+
+Brute force attempts show up as repeated POST requests to the Joomla admin login endpoint from the same source, usually in rapid succession with varying credentials. I use this spl commands:
+
+```
+index=* sourcetype=stream:http dest_ip=192.168.250.70 uri_path="*administrator*" http_method=POST
+| stats count by src_ip
+| sort - count
+```
+This query searches all indexes for HTTP POST requests to the Joomla administrator login page on destination IP 192.168.250.70, counts how many requests came from each source IP, and sorts the results to highlight the most active attackers
+
+<img width="1913" height="505" alt="image" src="https://github.com/user-attachments/assets/2dcafeb4-cbef-4bd7-ad97-1893c0900176" />
+
+We can see `23.22.63.114` with a very high count of  requests to the admin login page. That volume of repeated login attempts in a short window is the signature of a brute force attack. To confirm the brute force attacks, lets pivot to `POST` requests by using the fields `byte`. Run in this next:
+
+```
+index=* sourcetype=stream:http src_ip=23.22.63.114 dest_ip=192.168.250.70 http_method=POST
+| stats count by status, bytes
+| sort - count
+```
+
+We can see the actual brute force attempts. Every row is `status=303`. For example, Joomla redirects after processing a login POST, whether it succeeds or fails, and the `bytes` values are all clustered tightly in the **852–856** range. That tight clustering is exactly what a failed login attempt looks like where Joomla redirects you back to the login form with an error each time.
+
+<img width="1911" height="698" alt="image" src="https://github.com/user-attachments/assets/35f7f7c2-6de0-4b70-a579-d47ab1a4b7ea" />
+
+- From the search result, every other byte-size value (852–856) has dozens or hundreds of occurrences and the a normal repeated "failed login" response. But `857` appears **exactly once**, breaking the pattern entirely. That's almost certainly your successful login response. Lets confirm again using these spl commands:
+
+```
+index=* sourcetype=stream:http src_ip=23.22.63.114 dest_ip=192.168.250.70 http_method=POST bytes=857
+| table _time _time, uri_path, status, bytes, form_data
+```
+
+<img width="1920" height="512" alt="image" src="https://github.com/user-attachments/assets/ff80b6a8-0f1e-459f-868f-3606a765832d" />
+
+- The output shows full confirmation that it is a a brute force attacks. 
+
+##### Successful brute force credentials
+- Username:** `admin`
+- Password:** `123456789`
+- Timestamp:** `2016-08-10 21:45:25.299`
+
+##### Why this is the confirmed successful attempt
+- It's the **only** POST response with `bytes=857` while every other attempt (852–856 bytes) was a failed-login redirect back to the same login form.
+- The distinct byte count means Joomla returned a different response this time — consistent with a successful auth redirecting to the admin dashboard instead of back to the login page
+- `passwd=123456789` fits the same "common weak password" wordlist pattern that easily to brute force.
+
+The same IP (`23.22.63.114`) tying together the scanning infrastructure, the malicious file-hosting domain, and now the brute force attempts strongly indicates this is Po1s0n1vy's primary attack IP throughout the whole campaign.
+
+_Answer: 23.22.63.114._
+
+----
+
+**Question 8: What is the name of the executable uploaded by Po1s0n1vy?**
+
+In this part, I check every values in each fields to see if there is any executable file payloads ending with `.exe`.
+
+<img width="1247" height="801" alt="image" src="https://github.com/user-attachments/assets/3efe0a64-4293-400b-90d3-44055358c6be" />
+
+I found `3791.exe` from the part_filename{} fields. To confirm this is the executable uploaded by Po1s0n1vy, I use this spl commands:
+
+```
+index=* sourcetype=stream:http dest_ip=192.168.250.70 http_method=POST part_filename{}="3791.exe"
+| table _time, c_ip, dest_ip, http_comment, http_method, part_filename{}, http_content_type
+| sort _time
+```
+
+This query searches all indexes for HTTP POST requests to destination IP 192.168.250.70 where the uploaded file is 3791.exe, then displays detailed fields in a table and sorts them chronologically by time.
+
+<img width="1906" height="463" alt="image" src="https://github.com/user-attachments/assets/5467a513-7f85-4278-a1b9-b6490cdafe85" />
+
+- From the result, `part_filename{}` field has a both `3791.exe` and `agent.php` that show up in a signgle event. It tells attacker uploaded a simultaneously in one multipart form POST likely through Joomla media manager or template editor, where an attacker can bundle multiple files into a single upload request.
+
+_Answer: 3791.exe_
+
+---
+**Question 9: What is the MD5 hash of the executable uploaded?**
+
+MD5 is a cryptographic hash and cannot be found in the HTTP traffic (`stream:http`). To get the hash, Windows server is the needed source type,  since Sysmon records the MD5 of any executable it sees run.
+
+<img width="731" height="737" alt="image" src="https://github.com/user-attachments/assets/a64fdd80-4d00-4921-a66d-b42a6ba1e8d7" />
+let's try this source type `XmlWinEventLog:Microsoft-Windows-Sysmon/Operational`
+
+```
+index=* sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational EventCode=1 "3791.exe"
+| table _time, host, Image, CommandLine, Hashes
+```
+This query searches all indexes for Sysmon EventCode 1 (process creation) events where the executable 3791.exe was run, then displays details such as time, host, image path, command line, and file hashes.
+
+<img width="1873" height="647" alt="image" src="https://github.com/user-attachments/assets/ebaa2ee0-6166-48d2-a4ef-8b0a2049d441" />
+
+From the search result, we can see the `3791.exe` use as the executable payloads and the md5 cryptographic hash on the hashes fields. That execution confirmation is critical: it shows the attack succeeded beyond just placing the file — Po1s0n1vy achieved actual code execution, not just an upload.
+
+_Answer: AAE3F5A29935E6ABCC2C2754D12A9AF0_
+
