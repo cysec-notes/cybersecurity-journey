@@ -16,4 +16,21 @@ This query searches across all indexes of 'botsv1' but filters the results to fi
 
 <img width="1907" height="595" alt="image" src="https://github.com/user-attachments/assets/c7cc8e21-1506-4c56-b5ba-070680cc032c" />
 
-- The searched returned all  the source type from different source. Most likely the source type I need is the `sourcetype=stream:http` where all HTTP logs are records that.
+- _The searched returned all  the source type from different source. Most likely the source type I need is the `sourcetype=stream:http` where all HTTP logs are records._
+
+**Question 1**: What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities?
+
+Using the 'sourcetype=stream:http' and website 'imreallynotbatman' we can determine what IP address from the attacker group. I use this spl query to find the source IP:
+
+```
+index=botsv1 sourcetype=stream:http imreallynotbatman
+| stats count by src_ip
+| sort - count
+```
+This query searches the botsv1 index for HTTP traffic `sourcetype=stream:http` related to the website imreallynotbatman, counts the number of events grouped by source IP `src_ip`, and then `sorts` the results to show the IPs with the highest activity first.
+
+<img width="1907" height="557" alt="image" src="https://github.com/user-attachments/assets/1c9a8570-04d8-4b13-80ac-e3534c4e5a0c" />
+
+- 
+
+
