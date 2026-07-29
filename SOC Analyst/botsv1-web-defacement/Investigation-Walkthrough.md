@@ -13,5 +13,7 @@ index=botsv1 imreallynotbatman.com
 | sort - count
 ```
 This query searches across all indexes of 'botsv1' but filters the results to find all sourcetype.
+
 <img width="1907" height="595" alt="image" src="https://github.com/user-attachments/assets/c7cc8e21-1506-4c56-b5ba-070680cc032c" />
-- Most likely the sourcetype I need is the 'sourcetype=stream:http' where all HTTP logs are records.
+
+- The searched returned all  the source type from different source. Most likely the source type I need is the `sourcetype=stream:http` where all HTTP logs are records that.
