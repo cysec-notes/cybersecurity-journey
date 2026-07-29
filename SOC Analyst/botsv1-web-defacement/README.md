@@ -1,5 +1,5 @@
 # Boss of the SOC v1 Investigation Version 1 (2015) 
-Welcome! this repository contains my complete walkthrough of BOSS of the SOC (BOTS) Version 1 – Scenario 1: Web Defacement.
+Welcome! this repository contains my complete walkthrough of BOSS of the SOC (BOTS) Version 1 – Scenario 1: Web Defacement (https://bots.splunk.com/).
 
 This project serves as both a walkthrough and a personal home lab where I practice using Splunk Enterprise, improve my SPL (Search Processing Language) skills, and gain hands-on experience with the incident response process. **My goal is not only to solve the challenge but also to think and investigate like a SOC Analyst.**
 
