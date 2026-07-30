@@ -236,6 +236,7 @@ _Answer: 3791.exe_
 MD5 is a cryptographic hash and cannot be found in the HTTP traffic (`stream:http`). To get the hash, Windows server is the needed source type,  since Sysmon records the MD5 of any executable it sees run.
 
 <img width="731" height="737" alt="image" src="https://github.com/user-attachments/assets/a64fdd80-4d00-4921-a66d-b42a6ba1e8d7" />
+
 let's try this source type `XmlWinEventLog:Microsoft-Windows-Sysmon/Operational`
 
 ```
