@@ -35,10 +35,26 @@ Level of Asset Classificication:
 3. confidential, - should only be accessed by those working on a specific project.
 4. restricted - are typically highly sensitive and must be protected.
 
+Data is information that is translated, processed, or stored by a computer.
+Data in use is data being accessed by one or more users.
+Data in transit is data traveling from one point to another. 
+Data at rest is data not currently being accessed.
+
+Information security, or InfoSec, is the practice of keeping data in all states away from unauthorized users.
+
+Security plans consist of three basic elements: policies, standards, and procedures.
+A policy in security is a set of rules that reduce risk and protects information.
+standards are references that inform how to set policies.
+Procedures are step-by-step instructions to perform a specific security task.
+
 ## Personal Reflection
 Every business is different. Each business will have specific requirements to address when devising their security strategy. Knowing why and how businesses classify their assets is an important skill to have as a security professional. Information is one of the most important assets in the world. As a cybersecurity professional, you will be closely involved with protecting information from damage, disclosure, and misuse. Recognizing the challenges that businesses face classifying this type of asset is a key to helping them solve their security needs.
 
+- Cloud security is growing
+- its up to the client how they secure their platform while cloud services responsible the servers where the clients working
+- security is all about people,process and technology
 
+- keep track of assets
 ## Next Steps
 Continue Course 1 Module 2
 
