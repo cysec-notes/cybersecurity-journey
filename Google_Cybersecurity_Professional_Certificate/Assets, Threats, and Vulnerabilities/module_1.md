@@ -11,7 +11,7 @@ After completing this module, I can learn:
 - Policies standards and procedures
 - NIST Cybersecurity Framework
 
-## Key Concepts Learned
+## Key Concepts I Learned
 In security, a **risk** is anything that can impact the confidentiality, integrity, or availability of an asset.
 
 Security plans are based on the analysis of three elements: **assets, threats, and vulnerabilities**.
@@ -29,25 +29,27 @@ Asset management is the process of tracking assets and the risks that affects th
 Asset inventory, a catalog of assets that need to be protected.
 
 Asset classification is the practice of labeling assets based on the sensitivity and importance to an organization.
+
 Level of Asset Classificication:
 1. public - can be shared with anyone.
 2. internal-only - can be shared with anyone in the organization but should not be shared outside of it.
 3. confidential, - should only be accessed by those working on a specific project.
 4. restricted - are typically highly sensitive and must be protected.
 
-Data is information that is translated, processed, or stored by a computer.
-Data in use is data being accessed by one or more users.
-Data in transit is data traveling from one point to another. 
-Data at rest is data not currently being accessed.
+**Data** is information that is translated, processed, or stored by a computer.
+1. **Data in use** is data being accessed by one or more users.
+2. **Data in transit** is data traveling from one point to another. 
+3. **Data at rest** is data not currently being accessed.
 
 Information security, or InfoSec, is the practice of keeping data in all states away from unauthorized users.
 
 Security plans consist of three basic elements: policies, standards, and procedures.
 A policy in security is a set of rules that reduce risk and protects information.
-standards are references that inform how to set policies.
+Standards are references that inform how to set policies.
 Procedures are step-by-step instructions to perform a specific security task.
 
 Compliance is the process of adhering to internal standards and external regulations. Fines, penalties, and lawsuits are other reasons.
+
 Regulations are rules set by a government or other authority to control the way something is done.
 
 The NIST Cybersecurity Framework is a voluntary framework that consists of standards, guidelines, and best practices to manage cybersecurity risk. 
@@ -66,9 +68,7 @@ The NIST Cybersecurity Framework is a voluntary framework that consists of stand
 - Govern
 
 #### Activity: Score risks based on their likelihood and severity
-you will practice performing a risk assessment by evaluating vulnerabilities that commonly threaten business operations.
-
-What did you do well? Where can you improve? 
+I practice performing a risk assessment by evaluating vulnerabilities that commonly threaten business operations. Then I decide how to prioritize my resources based on the risk scores I assign each vulnerability.
 
 
 ## Personal Reflection
