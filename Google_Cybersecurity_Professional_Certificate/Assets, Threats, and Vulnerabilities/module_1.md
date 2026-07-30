@@ -68,7 +68,7 @@ The NIST Cybersecurity Framework is a voluntary framework that consists of stand
 - Govern
 
 #### Activity: Score risks based on their likelihood and severity
-I practice performing a risk assessment by evaluating vulnerabilities that commonly threaten business operations. Then I decide how to prioritize my resources based on the risk scores I assign each vulnerability.
+I perform this [risk register](Risk%20register.pdf) activity, a risk assessment by evaluating vulnerabilities that commonly threaten business operations. Then I decide how to prioritize my resources based on the risk scores I assign each vulnerability based on their likelihood and severity.
 
 
 ## Personal Reflection
