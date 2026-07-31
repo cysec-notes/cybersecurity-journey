@@ -92,7 +92,7 @@ _Answer: Joomla_
 
 ---
 
-**Question 4: What is the name of the file that defaced the imreallynotbatman.com website? **
+**Question 4: What is the name of the file that defaced the imreallynotbatman.com website?**
 
 This ties directly into the earlier steps of the investigation after Po1s0n1vy's Acunetix scan identified the Joomla CMS and its vulnerabilities, they exploited a Joomla component vulnerability. 
 
