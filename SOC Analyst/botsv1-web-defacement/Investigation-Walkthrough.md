@@ -74,6 +74,7 @@ This query searches the botsv1 index for HTTP traffic from source IP 40.80.148.4
 <img width="824" height="711" alt="image" src="https://github.com/user-attachments/assets/3a86c84e-b80f-4330-97a0-979b4e11ec31" />
 
 - Based on this output, this strongly suggest that imreallynotbatman.com is running Joomla. `/joomla/index.php/component/search/` hits 16,667 hits and `/joomla/administrator/index.php` hits 33 hits. That massive count is very likely Acunetix fuzzing the Joomla search component for injection points. Search forms are a classic target since user input gets passed into a query, making them prime candidates for SQLi/XSS testing.
+- The attacker likely abused the exposed administrative login endpoint located at /joomla/administrator/index.php because the control portal was entirely exposed to the public internet.
 
 In this search I found suspicious uri_path commonly known as traversal attack.
 
