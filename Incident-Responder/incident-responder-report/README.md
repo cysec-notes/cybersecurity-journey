@@ -1,7 +1,7 @@
 # Incident Reports
 
-This folder contains incident reports developed as part of my cybersecurity learning journey, covering both Blue Team and Red Team activities, including SOC analysis, ethical hacking, and incident response home-lab projects.
-The purpose of these reports is to practice documenting security incidents in a structured and professional format, based on evidence collected during investigations.
+- This folder contains incident reports developed as part of my cybersecurity learning journey, covering both Blue Team and Red Team activities, including SOC analysis, ethical hacking, and incident response home-lab projects.
+- The purpose of these reports is to practice documenting security incidents in a structured and professional format, based on evidence collected during investigations.
 
 ## 🎯 Purpose
 
@@ -25,44 +25,19 @@ Creating incident reports helps me develop the ability to:
 
 ## 📝 Report Structure
 
-My incident reports generally follow a structure similar to a real-world security incident report:
+My incident report structure may vary depending on the type and scope of the incident, but the reports generally follow a structure similar to a real-world security incident report:
 
-1. **Executive Summary**
-   - Incident overview
-   - Severity
-   - Status
-   - Key findings
-   - Immediate actions
-   - Stakeholder impact
-
-2. **Technical Analysis**
-   - Affected systems
-   - Evidence sources
-   - Investigation findings
-   - Indicators of Compromise (IOCs)
-   - Root cause analysis
-   - Technical timeline
-   - Attack techniques and procedures
-
-3. **Impact Analysis**
-   - Business impact
-   - System impact
-   - Potential data exposure
-   - Operational and reputational impact
-
-4. **Response and Recovery**
-   - Containment
-   - Access revocation
-   - Eradication
-   - Vulnerability remediation
-   - System recovery
-   - Post-incident monitoring
-
-5. **Lessons Learned**
-   - Security gaps
-   - Recommended improvements
-   - Future security strategy
-
+- Executive Summary
+- Technical Analysis
+- Evidence Sources and Analysis
+- Indicators of Compromise (IoCs)
+- Root Cause Analysis
+- Technical Timeline
+- Impact Analysis
+- Response and Recovery
+- Lessons Learned
+- Recommendations
+  
 ## 🔎 Evidence-Based Reporting
 
 I aim to distinguish between information directly observed in logs and conclusions derived from the investigation.
@@ -99,6 +74,7 @@ Through these reports, I am practicing:
 - Incident documentation
 - Security recommendations
 - Technical communication
+- Penetration testing investigation
 
 ## 📚 Learning Goal
 
