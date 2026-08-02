@@ -492,4 +492,4 @@ I hope this investigation demonstrate not only the final answers, but also the a
 
 If you're interested in a concise summary of the investigation, I've also included a complete Incident Report that highlights the attack timeline, key findings, indicators of compromise (IOCs), and recommendations.
 
-📄 [Incident Report](botsv1-web-defacement/Incident20%Report20%—20%BOTS20%v120%Web20%Defacement.pdf)
+📄 [Incident Report](botsv1-web-defacement/Incident%20Report%20—%20BOTS%20v1%20Web%20Defacement.pdf)
