@@ -33,7 +33,7 @@ Security assessments and audits
 
 
 #### Activity: Determine appropriate data handling practices
-I perform this [Data leak worksheet](Risk%20register.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
+I perform this [Data leak worksheet](Data-leak-worksheet.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
 
 
 I learn about principle of least priveledge
