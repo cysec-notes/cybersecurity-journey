@@ -72,8 +72,9 @@ I perform this [risk register](Risk%20register.pdf) activity, a risk assessment 
 
 
 ## Personal Reflection
-Every business is different. Each business will have specific requirements to address when devising their security strategy. Knowing why and how businesses classify their assets is an important skill to have as a security professional. Information is one of the most important assets in the world. As a cybersecurity professional, you will be closely involved with protecting information from damage, disclosure, and misuse. Recognizing the challenges that businesses face classifying this type of asset is a key to helping them solve their security needs.
+Every business is different. Each business will have specific requirements to address when devising their security strategy. Knowing why and how businesses classify their assets is an important skill to have as a security professional. Information is one of the most important assets in the world. As a cybersecurity professional, I will be closely involved with protecting information from damage, disclosure, and misuse. Recognizing the challenges that businesses face classifying this type of asset is a key to helping them solve their security needs.
 
+**Some of my key takeaways:**
 - Cloud security is growing
 - its up to the client how they secure their platform while cloud services responsible the servers where the clients working
 - security is all about people,process and technology
@@ -81,6 +82,7 @@ Every business is different. Each business will have specific requirements to ad
 - keep track of assets
 - you care about people to protect
 - follow compliances
+  
 ## Next Steps
 Continue Course 1 Module 2
 
