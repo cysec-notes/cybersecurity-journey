@@ -12,9 +12,9 @@
 
 **Information privacy** is the protection of unauthorized access and distribution of data.
 
-A data owner is a person who decides who can access, edit, use, or destroy their information.
+A **data owner** is a person who decides who can access, edit, use, or destroy their information.
 
-data custodian is anyone or anything that's responsible for the safe handling, transport, and storage of information.
+**data custodian** is anyone or anything that's responsible for the safe handling, transport, and storage of information.
 
 Data governance is a set of processes that define how an organization manages information. Governance often includes policies that specify how to keep data private, accurate, available, and secure throughout its lifecycle.
 
@@ -55,8 +55,9 @@ A hash function is an algorithm that produces a code that can't be decrypted.
 
 Three factors of authentication: **knowledge, ownership, and characteristic**. 
 HTTP uses what is known as **basic auth**, the technology used to establish a user's request to access a server.
+
 **OAuth** is an open-standard authorization protocol that shares designated access between applications.
-An API token is a small block of encrypted code that contains information about a user.
+An API token is a small block of encrypted code that contains information about a user. OAuth uses an API token to authenticate users. An API token is a digital credential that is shared between a platform and a service provider to verify a user's identity.
 
 A **session** is a sequence of network HTTP basic auth requests and responses associated with the same user, like when you visit a website.
 A **session ID** is a unique token that identifies a user and their device while accessing the system.
@@ -112,13 +113,15 @@ In this lab, I created and evaluated the hash values for two files. I use Linux 
 ### Activity: Improve authentication, authorization, and accounting for a small business
 I perform this [Access control worksheet](Access-control-worksheet.pdf) activity, to assess the access controls used by a business. I analyze their current process, identify issues, and make recommendations to improve their security practices.
 
-#### Personal reflection
-I learn about principle of least priveledge
-customers trust, users has the right how dheir data should be handled
+## Personal reflection and Key takeaways
+I learn about principle of least privilege, encryption, decryption, hashes, and framework to protect sensitive information and prevent unauthorized access.
 
-- Hash values are primarily used as a way to determine the integrity of files and applications. Hashes also keep information confidential because they can't be decrypted.
+- customers trust, users has the right how their data should be handled.
+- Hash values are primarily used as a way to determine the integrity of files and applications.
+- Hashes also keep information confidential because they can't be decrypted.
+- Authorization controls are linked to the separation of duties and the principle of least privilege.
+- Separation of duties is the principle that users should not be given levels of authorization that would allow them to misuse a system.
 
-- Authorization controls are linked to the separation of duties and the principle of least privilege. Separation of duties is the principle that users should not be given levels of authorization that would allow them to misuse a system.
 ## Next Steps
 Continue Course 1 Module 2
 
