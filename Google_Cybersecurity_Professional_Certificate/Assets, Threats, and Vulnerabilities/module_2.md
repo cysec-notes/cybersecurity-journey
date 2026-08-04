@@ -42,14 +42,22 @@ Symmetric encryption involves the use of a single secret key to exchange informa
 
 A digital certificate is a file that verifies the identity of a public key holder.
 
+#### Non-repudiation and hashing
+A hash function is an algorithm that produces a code that can't be decrypted.
+ non-repudiation, the concept that authenticity of information can't be denied.
+ 
+#### The evolution of hash functions
+ Salting is an additional safeguard that's used to strengthen hash functions. A salt is a random string of characters that's added to data before it's hashed. The additional characters produce a more unique hash value, making salted data resilient to rainbow table attacks.
 
-#### Activity: Determine appropriate data handling practices
+#### Access controls and authentication systems
+ 
+### Activity: Determine appropriate data handling practices
 I perform this [Data leak worksheet](Data-leak-worksheet.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
 
 #### lab: Decrypt an encrypted message
 In this lab, I completed a series of tasks to obtain instructions for decrypting an encrypted file. Encryption of data in use, at rest, and in transit is critical to security functions. I use my Linux skills to uncover the clues needed to decode a classical cipher, restore a file, and reveal a hidden message.
 
-Tasks in this lab I completed:
+**Tasks in this lab I completed:**
 - List the contents of a directory
 
   <img width="511" height="53" alt="image" src="https://github.com/user-attachments/assets/caa346cd-b197-4aae-8d97-dccb25136d9a" />
@@ -65,10 +73,33 @@ The message in the .leftShift3 file appears to be scrambled. This is because the
 - Decrypt an encrypted file and restore the file to its original state
   <img width="1901" height="100" alt="image" src="https://github.com/user-attachments/assets/e2b74ce4-94ae-44f6-bd56-4ad3095f2ee1" />
 
+#### Activity: Create hash values
+In this lab, I created and evaluated the hash values for two files. I use Linux commands to calculate the hash of two files and observe any differences in the hashes produced. Then, I determine if the files are the same, or different.
+
+**Tasks in this lab I completed:**
+- List the contents of the home directory
+  <img width="452" height="94" alt="image" src="https://github.com/user-attachments/assets/c625d230-8386-4075-b673-bf1f0dd169da" />
+
+- Compare the plain text of the two files presented for hashing
+  <img width="806" height="98" alt="image" src="https://github.com/user-attachments/assets/17f12df8-7fc7-4f43-b7f1-24e596ba2805" />
+
+  The two files appear identical when I use the cat command.
+
+- Compute the sha256sum hash of the two separate files
+  <img width="873" height="199" alt="image" src="https://github.com/user-attachments/assets/54ec8bae-c61c-4e2f-b9d2-a512fcff9c0e" />
+
+  Now,  both files does not produce the same generated hash value.
+  
+- Compare the hashes provided to identify the differences
+  ![Uploading image.png…]()
+
+  The output of the cmp command indicates that the hashes differ at the first character in the first line.
+
 #### Personal reflection
 I learn about principle of least priveledge
 customers trust, users has the right how dheir data should be handled
 
+- Hash values are primarily used as a way to determine the integrity of files and applications. Hashes also keep information confidential because they can't be decrypted.
 ## Next Steps
 Continue Course 1 Module 2
 
