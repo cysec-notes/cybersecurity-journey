@@ -50,7 +50,20 @@ A hash function is an algorithm that produces a code that can't be decrypted.
  Salting is an additional safeguard that's used to strengthen hash functions. A salt is a random string of characters that's added to data before it's hashed. The additional characters produce a more unique hash value, making salted data resilient to rainbow table attacks.
 
 #### Access controls and authentication systems
- 
+**Access controls**, the security controls that manage access, authorization, and accountability of information.
+** Single sign-on**, or SSO, is a technology that combines several different logins into one.
+
+Three factors of authentication: **knowledge, ownership, and characteristic**. 
+HTTP uses what is known as **basic auth**, the technology used to establish a user's request to access a server.
+**OAuth** is an open-standard authorization protocol that shares designated access between applications.
+An API token is a small block of encrypted code that contains information about a user.
+
+A **session** is a sequence of network HTTP basic auth requests and responses associated with the same user, like when you visit a website.
+A **session ID** is a unique token that identifies a user and their device while accessing the system.
+A **session cookie** is a token that websites use to validate a session and determine how long that session should last.
+**Session hijacking** is an event when attackers obtain a legitimate user's session ID.
+**User provisioning** is the process of creating and maintaining a user's digital identity. 
+
 ### Activity: Determine appropriate data handling practices
 I perform this [Data leak worksheet](Data-leak-worksheet.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
 
@@ -78,6 +91,7 @@ In this lab, I created and evaluated the hash values for two files. I use Linux 
 
 **Tasks in this lab I completed:**
 - List the contents of the home directory
+
   <img width="452" height="94" alt="image" src="https://github.com/user-attachments/assets/c625d230-8386-4075-b673-bf1f0dd169da" />
 
 - Compare the plain text of the two files presented for hashing
@@ -95,11 +109,16 @@ In this lab, I created and evaluated the hash values for two files. I use Linux 
 
   The output of the cmp command indicates that the hashes differ at the first character in the first line.
 
+#### Activity: Improve authentication, authorization, and accounting for a small business
+I perform this activity, to assess the access controls used by a business. You’ll analyze their current process, identify issues, and make recommendations to improve their security practices.
+
 #### Personal reflection
 I learn about principle of least priveledge
 customers trust, users has the right how dheir data should be handled
 
 - Hash values are primarily used as a way to determine the integrity of files and applications. Hashes also keep information confidential because they can't be decrypted.
+
+- Authorization controls are linked to the separation of duties and the principle of least privilege. Separation of duties is the principle that users should not be given levels of authorization that would allow them to misuse a system.
 ## Next Steps
 Continue Course 1 Module 2
 
