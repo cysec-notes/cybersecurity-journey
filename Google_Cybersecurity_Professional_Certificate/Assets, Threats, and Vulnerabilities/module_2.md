@@ -47,10 +47,11 @@ A digital certificate is a file that verifies the identity of a public key holde
 I perform this [Data leak worksheet](Data-leak-worksheet.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
 
 #### lab: Decrypt an encrypted message
-In this lab [Data leak worksheet](Data-leak-worksheet.pdf), I completed a series of tasks to obtain instructions for decrypting an encrypted file. Encryption of data in use, at rest, and in transit is critical to security functions. I use my Linux skills to uncover the clues needed to decode a classical cipher, restore a file, and reveal a hidden message.
+In this lab, I completed a series of tasks to obtain instructions for decrypting an encrypted file. Encryption of data in use, at rest, and in transit is critical to security functions. I use my Linux skills to uncover the clues needed to decode a classical cipher, restore a file, and reveal a hidden message.
 
 Tasks in this lab I completed:
 - List the contents of a directory
+
   <img width="511" height="53" alt="image" src="https://github.com/user-attachments/assets/caa346cd-b197-4aae-8d97-dccb25136d9a" />
 
 - Read the contents of files
