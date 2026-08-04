@@ -31,6 +31,17 @@ Security assessments and audits
 1. A **security audit** is a review of an organization's security controls, policies, and procedures against a set of expectations.
 2. A **security assessment** is a check to determine how resilient current security implementations are against threats.
 
+Cryptography is the process of transforming information into a form that unintended readers can't understand.
+a cipher is an algorithm that encrypts information. A cryptographic key is a mechanism that decrypts ciphertext.
+
+Public key infrastructure, or PKI, is an encryption framework that secures the exchange of information online.
+
+Asymmetric encryption involves the use of a public and private key pair for encryption and decryption of data.
+
+Symmetric encryption involves the use of a single secret key to exchange information.
+
+A digital certificate is a file that verifies the identity of a public key holder.
+
 
 #### Activity: Determine appropriate data handling practices
 I perform this [Data leak worksheet](Data-leak-worksheet.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
