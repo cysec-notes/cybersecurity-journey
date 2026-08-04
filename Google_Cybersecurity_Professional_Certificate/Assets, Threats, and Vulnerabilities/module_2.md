@@ -67,7 +67,7 @@ A **session cookie** is a token that websites use to validate a session and dete
 ### Activity: Determine appropriate data handling practices
 I perform this [Data leak worksheet](Data-leak-worksheet.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
 
-#### lab: Decrypt an encrypted message
+### Lab: Decrypt an encrypted message
 In this lab, I completed a series of tasks to obtain instructions for decrypting an encrypted file. Encryption of data in use, at rest, and in transit is critical to security functions. I use my Linux skills to uncover the clues needed to decode a classical cipher, restore a file, and reveal a hidden message.
 
 **Tasks in this lab I completed:**
@@ -86,7 +86,7 @@ The message in the .leftShift3 file appears to be scrambled. This is because the
 - Decrypt an encrypted file and restore the file to its original state
   <img width="1901" height="100" alt="image" src="https://github.com/user-attachments/assets/e2b74ce4-94ae-44f6-bd56-4ad3095f2ee1" />
 
-#### Activity: Create hash values
+### Activity: Create hash values
 In this lab, I created and evaluated the hash values for two files. I use Linux commands to calculate the hash of two files and observe any differences in the hashes produced. Then, I determine if the files are the same, or different.
 
 **Tasks in this lab I completed:**
@@ -109,8 +109,8 @@ In this lab, I created and evaluated the hash values for two files. I use Linux 
 
   The output of the cmp command indicates that the hashes differ at the first character in the first line.
 
-#### Activity: Improve authentication, authorization, and accounting for a small business
-I perform this activity, to assess the access controls used by a business. You’ll analyze their current process, identify issues, and make recommendations to improve their security practices.
+### Activity: Improve authentication, authorization, and accounting for a small business
+I perform this [Access control worksheet](Access-control-worksheet.pdf) activity, to assess the access controls used by a business. I analyze their current process, identify issues, and make recommendations to improve their security practices.
 
 #### Personal reflection
 I learn about principle of least priveledge
