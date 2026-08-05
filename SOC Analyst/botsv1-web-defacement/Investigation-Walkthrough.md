@@ -2,7 +2,7 @@
 This repository documents my complete investigation of the Boss of the SOC (BOTS) v1 Web Defacement scenario. Rather than presenting only the challenge answers, I document my investigative methodology, the SPL queries I used, my reasoning at each step, and the evidence that led to each conclusion.
 
 #### Understand the Incident
-Reports indicate that the website www.imreallynotbatman.com has been compromised specifically through web defacement. 
+Reports indicate that the website >www.imreallynotbatman.com< has been compromised specifically through web defacement. 
 My first objective is to determine if the website was really compromised. If confirmed, I will determine when the attack occurred and identify the affected web server.
 
 Since this is a web defacement, the attacker or Po1s0n1vy most likely interacted with the web server using HTTP. I decided to begin by examining HTTP logs. However, I don't know what source type it is in our Splunk. Splunk used to investigate and solve simulated real-world cyberattacks where it collects, indexes, and analyzes massive volumes of machine-generated data. let us confirm first by this spl query:
