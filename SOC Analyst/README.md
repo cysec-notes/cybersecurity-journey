@@ -50,13 +50,12 @@ Teamwork and collaboration
 
 ---
 
-## Hands-on Labs
+## Hands-on Labs | Level = Beginner friendly
 
 | Status | Lab | Skills |
 |---------|-----|--------|
 | ✅ | [Investigating Linux Authentication Logs](Linux-Authentication-Logs/README.md) | journalctl, grep, SSH, sudo, Linux Logs |
 | ✅ | [Boss of the SOC v1 – Scenario 1: Web Defacement Investigation](botsv1-web-defacement/README.md) | Splunk, SPL, Web Logs, IOC Analysis, Incident Investigation |
-| ⏳ | Windows Event Log Investigation | Windows Event IDs |
 | ⏳ | Brute Force Detection in Splunk | Detection engineering |
 | ⏳ | Malware Infection Investigation | IOC analysis |
 | ⏳ | Phishing Email Investigation | Email headers|
