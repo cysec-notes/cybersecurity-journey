@@ -3,7 +3,7 @@
 This repository documents my complete investigation of the Boss of the SOC (BOTS) v1 Ransomware scenario. Rather than presenting only the challenge answers, I document my investigative methodology, the SPL queries I used, my reasoning at each step, and the evidence that led to each conclusion.
 
 #### Understand the Incident
-On August 24th, an employer of Wayne Enterprise, Bob Smith, report that his workstation had been compromised. His speakers were playing a ransomware message stating that his documents, photos, databases, and other important files had been encrypted. His desktop background had also been changed, and he was unable to access his files.
+On August 24th, an employee of Wayne Enterprise, Bob Smith, report that his workstation had been compromised. His speakers were playing a ransomware message stating that his documents, photos, databases, and other important files had been encrypted. His desktop background had also been changed, and he was unable to access his files.
 
 According to Bob, the incident began after he found a USB drive in the parking lot. He connected the USB device to his workstation and opened a Microsoft Word document named Miranda_Tate_unveiled.dotm.
 
@@ -17,7 +17,7 @@ An additional concern was also identified in the incident ticketing queue: a cri
 
 During the interview, Bob Smith state he was using a Windows 10 workstation named `we8105desk`. 
 
-To identify the IPv4 address on 24 August 2016, I used the host name `we8105desk`. The following is my spl query.
+To identify the IPv4 address on 24 August 2016, I used the host name `we8105desk`. The following is my SPL query.
 
 ```
 index=botsv1 host=we8105desk 
@@ -27,7 +27,7 @@ This query searches the botsv1 index from the host `we8105desk` and show the IPs
 
 <img width="1607" height="159" alt="image" src="https://github.com/user-attachments/assets/f0266378-5588-44c8-b00e-c20a4a686f60" />
 
-- The search returned all sourced IP address related to the host name `we8105desk`. Among all the IP address, `192.168.250.100` has an overwhelming majority of the events (53,106). This is suggest that the IP address of we8105desk (Bob Smith's machine) is associated with `192.168.250.100`.
+- The search returned all sourced IP address related to the host name `we8105desk`. Among all the IP address, `192.168.250.100` generated the overwhelming majority of events associated with we8105desk, making it the most likely IPv4 address associated with the workstation during the specified timeframe.
 
 *Answer: 192.168.250.100*
 
@@ -50,7 +50,7 @@ This query counts and sorts all Suricata alert signatures found in the `botsv1` 
 
 Going back to the question, "Cerber" is the identified malware, but we need to submit ONLY the signature that has a fewest number. 
 
-The following is my spl querry I used.
+The following is my SPL query I used.
 
 ```
 index=botsv1 sourcetype=suricata "Cerber" OR "cerber"
@@ -60,7 +60,7 @@ This query searches Suricata alerts in the `botsv1` dataset for entries containi
 
 <img width="1912" height="506" alt="image" src="https://github.com/user-attachments/assets/e0a4081e-70de-4b97-bb65-03bc36aa2eca" />
 
-- The search returned all alerts identified as **Cerber**. The signature with the fewest occurrences is `2816763`. This might indicate a successful malware execution because more than one occurrence could represent repeated alerts or failed attempts, while a count of **1** could indicate a successful execution.
+- The search returned all alerts identified as **Cerber**. The signature with the fewest alerts was 2816763, which occurred once. The frequency alone does not establish successful execution; it identifies the signature requested by the challenge.
 
 *Answer: 2816763*
 
@@ -70,7 +70,7 @@ This query searches Suricata alerts in the `botsv1` dataset for entries containi
 
 To identify the domain name , I need to find first the IP address of Cerber ransomware.
 
-I use this following spl query to find the IP address of Cerber ransomware using the infected host `192.168.250.100` of we8105desk (Bob device).
+I use this following SPL query to find the IP address of Cerber ransomware using the infected host `192.168.250.100` of we8105desk (Bob device).
 
 ```
 index=botsv1 sourcetype=suricata earliest="08/24/2016:00:00:00" latest="08/25/2016:00:00:00" alert.signature="*Cerber*"
@@ -87,7 +87,7 @@ This query retrieves all Suricata alerts in the `botsv1` dataset between August 
 
 - The result also found that the infected host address is successfully establish a network connection with this malicious IP address  `192.168.250.20`.
 
-To find the domain name of  Cerber ransomware, I used the malicious IP address and specific time it established a connection (08/24/2016:17:15:12) with the following spl query:
+To find the domain name of  Cerber ransomware, I used the malicious IP address and specific time it established a connection (08/24/2016:17:15:12) with the following SPL query:
 
 ```
 index=botsv1 sourcetype=stream:dns earliest="08/24/2016:17:15:12" latest="08/24/2016:17:15:13" src_ip=192.168.250.100 dest_ip=192.168.250.20
@@ -106,7 +106,7 @@ This query pulls DNS stream logs from the `botsv1` dataset within the one‑seco
 
 **Question 4: What was the first suspicious domain visited by we8105desk on 24AUG2016?**
 
-`botsv1` has many source type available.  In this part, I will use the HTTP server to find the first domain visited by the host `we8105desk` using the following spl query.
+`botsv1` has many source type available.  In this part, I will use the HTTP server to find the first domain visited by the host `we8105desk` using the following SPL query.
 
 ```
 index=botsv1 sourcetype=stream:http earliest="08/24/2016:00:00:00" latest="08/25/2016:00:00:00" src_ip=192.168.250.100
@@ -116,7 +116,7 @@ index=botsv1 sourcetype=stream:http earliest="08/24/2016:00:00:00" latest="08/25
 | sort _time
 ```
 
-This query retrieves HTTP stream logs from the `botsv1` dataset between August 24–25, 2016 for traffic originating from source IP `192.168.250.100`, renames the `site` field to `domain_name`. Then outputs a table of timestamp, destination IP, and domain name, ensuring each domain appears only once and is sorted chronologically (old to latest).
+This query retrieves HTTP stream logs from the `botsv1` dataset between August 24–25, 2016 for traffic originating from source IP `192.168.250.100`, renames the `site` field to `domain_name`. Then outputs a table of timestamp, destination IP, and domain name. Next,  I deduplicated the domains so that each domain appeared once, preserving the earliest observed occurrence before sorting chronologically. 
 
 <img width="1502" height="492" alt="image" src="https://github.com/user-attachments/assets/54fe8f41-4ccf-4fe2-a7a4-d7f4ac4150d2" />
 
@@ -142,7 +142,7 @@ index=botsv1 host=we8105desk sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon
 | table _time CommandLine
 ```
 
-The question tells us the VBScript's full text is prepended to the launching `.exe` name _inside_ the `CommandLine` field. So this field will contain an unusually long string, not a normal one-line command. I use this next spl query to measure field length and sort to find the longest one.
+The question tells us the VBScript's full text is prepended to the launching `.exe` name _inside_ the `CommandLine` field. So this field will contain an unusually long string, not a normal one-line command. I use this next SPL query to measure field length and sort to find the longest one.
 
 ```
 index=botsv1 sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 *.exe CommandLine=* earliest="08/24/2016:00:00:00" latest="08/25/2016:00:00:00"
@@ -165,7 +165,7 @@ index=botsv1 sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" Ev
 
 To identify the USB, we should know where USB device info lives in Windows. In this case, I use the available source type `WinRegistry` or Window registry logs and search `FriendlyName` keys where windows stores connected hardware data. In Splunk, the `FriendlyName` field from the Windows registry is used to translate cryptic hardware identifiers into human-readable USB device names.
 
-The following spl query I used:
+The following SPL query I used:
 
 ```
 index=botsv1 host=we8105desk sourcetype=WinRegistry earliest="08/24/2016:00:00:00" latest="08/25/2016:00:00:00" Friendlyname
@@ -200,9 +200,7 @@ index=botsv1 host=we8105desk direction=outbound dest="*we*srv*" earliest="08/24/
 In the highlighted events:
 
 - **Blue Box (`192.168.250.100`)** — This is the **source IP address**, representing Bob Smith's infected workstation (`we8105desk`), which initiated the network communication.
-- **Red Box (`192.168.250.20`)** — This is the **destination IP address**. During the investigation, this address was identified as the **internal file server** that Bob Smith's workstation was connected to during the ransomware outbreak.
-
-Based on these findings, the IPv4 address of the file server is **`192.168.250.20`**.
+- **Red Box (`192.168.250.20`)** — This is the **destination IP address** associated with Cerber traffic. During the investigation, this address was identified as the **internal file server** that Bob Smith's workstation was connected to during the ransomware outbreak.
 
 *Answer: 192.168.250.20*
 
@@ -223,7 +221,7 @@ index=botsv1 host=we8105desk direction=outbound dest="*we*srv*" earliest="08/24/
 
 Next, I use a different source type `WinEventLog:Security` suit for finding file server and the `host=we9041srv` we recently found.
 
-This spl query was used to find a field name containing all pdf file:
+This SPL query was used to find a field name containing all pdf file:
 
 ```
 index=botsv1 sourcetype="WinEventLog:Security" host=we9041srv earliest="08/24/2016:00:00:00" latest="08/25/2016:00:00:00" "*.pdf"
@@ -250,7 +248,7 @@ index=botsv1 sourcetype="WinEventLog:Security" host=we9041srv earliest="08/24/20
 
 <img width="604" height="410" alt="image" src="https://github.com/user-attachments/assets/27c28a07-ff9e-46cf-a086-45fb2b6eb858" />
 
-- The result shows that 257 PDF files were likely encrypted.
+- The result shows, 257 distinct PDF files were identified as affected by the ransomware activity.
 
 *Answer: 257*
 
@@ -281,7 +279,7 @@ This query searches Sysmon EventCode 1 logs (process creation) between August 24
 
  Cerber touches `.txt` files elsewhere on the Windows system folder, but the question specifically asks about files in **Bob's profile**.
  
- The following spl query was used to filter out in Bob windows to located all files `.txt`.
+ The following SPL query was used to filter out in Bob windows to located all files `.txt`.
 
 
 ```
@@ -296,7 +294,7 @@ The `C:\Users\bob.smith.WAYNECORPINC\*` is a Windows file path pointing to the h
 
 <img width="268" height="107" alt="image" src="https://github.com/user-attachments/assets/97a7fc3f-41c0-4ea5-bd33-02372d110dfe" />
 
-- From the search result, the total .txt files possible encrypt by the Cerber ransomare is `406`
+- From the search result, `406` distinct .txt files within Bob Smith's Windows profile were identified in the relevant Sysmon activity and are consistent with files affected by the ransomware.
 
 *Answer: 406*
 
@@ -307,7 +305,7 @@ The `C:\Users\bob.smith.WAYNECORPINC\*` is a Windows file path pointing to the h
 
 Since, I already identified `solidaritedeproximite.org` at suricata's as the first suspicious domain, we will use the source type to filtering parsed HTTP fields down to that host to confirms the exact file requested.
 
-The following spl query I used:
+The following SPL query I used:
 
 ```
 index=botsv1 sourcetype=suricata "http.hostname"="solidaritedeproximite.org"
@@ -332,6 +330,8 @@ The ransomware encryptor was disguised with a **`.jpg` file extension**, making 
 This behavior is a strong indicator of **steganography**, an obfuscation technique in which malicious code or data is concealed within a file that appears to be harmless. By disguising the malware as a normal image, attackers increase the likelihood that users will open the file while reducing suspicion and potentially bypassing basic security controls.
 
 In this case, the `.jpg` extension was used to **hide the ransomware payload behind the appearance of a legitimate image file**, making **steganography** the most likely obfuscation technique.
+
+> The .jpg extension is consistent with masquerading because executable content was presented as an image file. The challenge identifies steganography as the expected answer, but the extension alone does not independently prove steganographic embedding.
 
 *Answer: steganography*
 
