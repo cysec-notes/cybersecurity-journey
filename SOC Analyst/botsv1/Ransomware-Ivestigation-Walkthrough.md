@@ -1,3 +1,5 @@
+# Botsv1 Ransomware: Complete Investigation Walkthrough
+
 This repository documents my complete investigation of the Boss of the SOC (BOTS) v1 Ransomware scenario. Rather than presenting only the challenge answers, I document my investigative methodology, the SPL queries I used, my reasoning at each step, and the evidence that led to each conclusion.
 
 #### Understand the Incident
