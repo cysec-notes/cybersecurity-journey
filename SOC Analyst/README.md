@@ -55,9 +55,8 @@ Teamwork and collaboration
 | Status | Lab | Skills |
 |---------|-----|--------|
 | ✅ | [Investigating Linux Authentication Logs](Linux-Authentication-Logs/README.md) | journalctl, grep, SSH, sudo, Linux Logs |
-| ✅ | [botsv1 - Web Defacement](botsv1/README.md)
-[botsv1 - Ransomware](botsv1/README.md)
-| Splunk, SPL, Web Logs, IOC Analysis, Incident Investigation |
+| ✅ | [botsv1 - Web Defacement](botsv1/README.md) | Splunk, SPL, Web Logs, IOC Analysis, Incident Investigation |
+| ✅ | [botsv1 - Ransomware](botsv1/README.md) | Splunk, SPL, Malware Analysis, Incident Investigation |
 | ⏳ | Brute Force Detection in Splunk | Detection engineering |
 | ⏳ | Malware Infection Investigation | IOC analysis |
 | ⏳ | Phishing Email Investigation | Email headers|
@@ -65,7 +64,6 @@ Teamwork and collaboration
 | ⏳ | Wireshark Packet Analysis | Packet Inspection, TCP/IP |
 | ⏳ | Windows Event Log Analysis | Event Viewer, Security Logs |
 | ⏳ | Incident Investigation | Log Correlation, Reporting |
-
 
 
 ---
