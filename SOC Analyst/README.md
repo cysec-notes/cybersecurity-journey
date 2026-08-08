@@ -53,17 +53,17 @@ Teamwork and collaboration
 ## Hands-on Labs | Level = Beginner friendly
 
 | Status | Lab | Skills |
-|---------|-----|--------|
+| ------ | --- | ------ |
 | ✅ | [Investigating Linux Authentication Logs](Linux-Authentication-Logs/README.md) | journalctl, grep, SSH, sudo, Linux Logs |
-| ✅ | [botsv1 - Web Defacement](botsv1/README.md) | Splunk, SPL, Web Logs, IOC Analysis, Incident Investigation |
-| ✅ | [botsv1 - Ransomware](botsv1/README.md) | Splunk, SPL, Malware Analysis, Incident Investigation |
-| ⏳ | Brute Force Detection in Splunk | Detection engineering |
-| ⏳ | Malware Infection Investigation | IOC analysis |
-| ⏳ | Phishing Email Investigation | Email headers|
-| ⏳ | DNS Investigation | DNS, IOC Analysis |
-| ⏳ | Wireshark Packet Analysis | Packet Inspection, TCP/IP |
-| ⏳ | Windows Event Log Analysis | Event Viewer, Security Logs |
-| ⏳ | Incident Investigation | Log Correlation, Reporting |
+| ✅ | [BOTS v1 - Web Defacement](botsv1/README.md) | Splunk, SPL, Web Logs, IOC Analysis, Incident Investigation |
+| ✅ | [BOTS v1 - Ransomware](botsv1/README.md) | Splunk, SPL, Malware Analysis, Windows Logs, Incident Investigation |
+| ⏳ | Brute Force Detection in Splunk | SPL, Detection Engineering |
+| ⏳ | Malware Infection Investigation | Malware Analysis, IOC Analysis |
+| ⏳ | Phishing Email Investigation | Email Analysis, Email Headers |
+| ⏳ | DNS Investigation | DNS Analysis, IOC Analysis |
+| ⏳ | Wireshark Packet Analysis | Packet Analysis, TCP/IP |
+| ⏳ | Windows Event Log Analysis | Event Viewer, Windows Security Logs |
+| ⏳ | Incident Investigation | Log Correlation, Incident Reporting |
 
 
 ---
