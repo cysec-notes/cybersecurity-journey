@@ -48,17 +48,16 @@ The **NIST National Vulnerabilities Database** uses what's known as the common v
 
 A **vulnerability assessment** is the internal review process of an organization's security systems.
 
+A **vulnerability scanner** is software that automatically compares known vulnerabilities and exposures against the technologies on the network. In general, these tools scan systems to find misconfigurations or programming flaws.
 
-### Activity: Determi
 
-ne appropriate data handling practices
-I perform this [Data leak worksheet](Data-leak-worksheet.pdf) activity, to review the results of a data risk assessment. I determine whether effective data handling processes are being implemented to protect information privacy.
 
-### Lab: Decrypt an encrypted message
-In this lab, I completed a series of tasks to obtain instructions for decrypting an encrypted file. Encryption of data in use, at rest, and in transit is critical to security functions. I use my Linux skills to uncover the clues needed to decode a classical cipher, restore a file, and reveal a hidden message.
+## Portfolio Activity: Analyze a vulnerable system for a small business
+In this activity, I conduct a vulnerability assessment for a small business. I will evaluate the risks of a vulnerable information system and outline a remediation plan.
 
-### Activity: Improve authentication, authorization, and accounting for a small business
-I perform this [Access control worksheet](Access-control-worksheet.pdf) activity, to assess the access controls used by a business. I analyze their current process, identify issues, and make recommendations to improve their security practices.
+**Scenario:**
+You are a newly hired cybersecurity analyst for an e-commerce company. The company stores information on a remote database server, since many of the employees work remotely from locations all around the world. Employees of the company regularly query, or request, data from the server to find potential customers. The database has been open to the public since the company's launch three years ago. As a cybersecurity professional, you recognize that keeping the database server open to the public is a serious vulnerability.
+
 
 ## Personal reflection and Key takeaways
 - While a **vulnerability** is a weakness of a system, an **exposure** is a mistake that can be exploited by a threat.
