@@ -53,7 +53,7 @@ A **vulnerability scanner** is software that automatically compares known vulner
 
 
 ## Portfolio Activity: Analyze a vulnerable system for a small business
-In this activity, I conduct a vulnerability assessment for a small business. I will evaluate the risks of a vulnerable information system and outline a remediation plan.
+In this activity, I conduct a [vulnerability assessment](Portfolio-Vulnerability_Assessment_Report.pdf) for a small business. I will evaluate the risks of a vulnerable information system and outline a remediation plan.
 
 **Scenario:**
 You are a newly hired cybersecurity analyst for an e-commerce company. The company stores information on a remote database server, since many of the employees work remotely from locations all around the world. Employees of the company regularly query, or request, data from the server to find potential customers. The database has been open to the public since the company's launch three years ago. As a cybersecurity professional, you recognize that keeping the database server open to the public is a serious vulnerability.
@@ -63,8 +63,6 @@ You are a newly hired cybersecurity analyst for an e-commerce company. The compa
 - While a **vulnerability** is a weakness of a system, an **exposure** is a mistake that can be exploited by a threat.
 - To prepare for future risks, security professionals need to stay informed.
 
-## Next Steps
-Continue Course 1 Module 2
 
 
 
