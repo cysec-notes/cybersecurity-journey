@@ -1,6 +1,6 @@
-# Module 2: Protect organizational asset
+# Module 3: Vulnerabilities in systems
 ## Overview
-
+In this module, learners will build an understanding of the vulnerability management process. They will learn about common vulnerabilities . They will develop an attacker mindset by examining the ways vulnerabilities can become threats to asset security if they are exploited.
 
 ## Learning Objectives
 - Explore a common approach to vulnerability management
