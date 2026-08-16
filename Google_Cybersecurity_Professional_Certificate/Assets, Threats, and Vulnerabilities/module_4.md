@@ -73,6 +73,16 @@ A SQL injection is an attack that executes unexpected queries on a database.
 
 [OWASP's SQL injection detection techniques](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection) is a useful resource if you're interested in investigating SQL injection vulnerabilities on your own.
 
+#### A proactive approach to security
+**Threat modeling** is a process of identifying assets, their vulnerabilities, and how each is exposed to threats. Threat Modeling steps:
+- Define the scope
+- Identify threats. An attack tree is a diagram that maps threats to assets.
+-  characterize the environment.
+-  analyze threats
+-  mitigate risk
+-  evaluate findings
+
+PASTA is a popular threat modeling framework that's used across many industries.
 
 
 ## Personal reflection and Key takeaways
