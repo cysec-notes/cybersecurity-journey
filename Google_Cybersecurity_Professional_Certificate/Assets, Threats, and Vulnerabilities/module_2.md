@@ -16,7 +16,7 @@ A **data owner** is a person who decides who can access, edit, use, or destroy t
 
 **data custodian** is anyone or anything that's responsible for the safe handling, transport, and storage of information.
 
-Data governance is a set of processes that define how an organization manages information. Governance often includes policies that specify how to keep data private, accurate, available, and secure throughout its lifecycle.
+**Data governance **is a set of processes that define how an organization manages information. Governance often includes policies that specify how to keep data private, accurate, available, and secure throughout its lifecycle.
 
 Data governance policies commonly categorize individuals into a specific role:
 1. Data owner: the person that decides who can access, edit, use, or destroy their information.
@@ -27,20 +27,20 @@ Information security vs. information privacy
 1. Information privacy refers to the protection from unauthorized access and distribution of data.
 2. Information security (InfoSec) refers to the practice of keeping data in all states away from unauthorized users.
 
-Security assessments and audits
+**Security assessments and audits**
 1. A **security audit** is a review of an organization's security controls, policies, and procedures against a set of expectations.
 2. A **security assessment** is a check to determine how resilient current security implementations are against threats.
 
-Cryptography is the process of transforming information into a form that unintended readers can't understand.
+**Cryptography** is the process of transforming information into a form that unintended readers can't understand.
 a cipher is an algorithm that encrypts information. A cryptographic key is a mechanism that decrypts ciphertext.
 
-Public key infrastructure, or PKI, is an encryption framework that secures the exchange of information online.
+**Public key infrastructure**, or PKI, is an encryption framework that secures the exchange of information online.
 
-Asymmetric encryption involves the use of a public and private key pair for encryption and decryption of data.
+**Asymmetric encryption** involves the use of a public and private key pair for encryption and decryption of data.
 
-Symmetric encryption involves the use of a single secret key to exchange information.
+**Symmetric encryption** involves the use of a single secret key to exchange information.
 
-A digital certificate is a file that verifies the identity of a public key holder.
+A **digital certificate** is a file that verifies the identity of a public key holder.
 
 #### Non-repudiation and hashing
 A hash function is an algorithm that produces a code that can't be decrypted.
