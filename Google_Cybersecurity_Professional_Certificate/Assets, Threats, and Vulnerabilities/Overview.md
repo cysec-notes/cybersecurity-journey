@@ -2,7 +2,7 @@
 
 This is the fifth course in the Google Cybersecurity Certificate. These courses will further explore the importance of protecting organizational assets from threats, risks, and vulnerabilities. They will also continue to develop an understanding of asset classification and how to use the National Institute of Standards and Technology’s (NIST) Cybersecurity Framework (CSF), as well as security controls, to protect assets and mitigate risk. Additionally, learners will gain an understanding of how to develop a threat actor mindset to help protect assets from ever-evolving threat actor tactics and techniques.
 
-**By the end of this course, you will: **
+**By the end of this course, I will:**
 - Learn effective data handling processes.
 - Discuss the role of encryption and hashing in securing assets.
 - Describe how to effectively use authentication and authorization. 
@@ -43,13 +43,13 @@ This is the fifth course in the Google Cybersecurity Certificate. These courses 
 - MITRE ATT&CK Framework
 
 ### Foundations of Cybersecurity
-- [Module 1: Network Architecture](Module_1.md)
-- [Module 2: Network Operations](Module_2.md)
-- [Module 3: Secure Against Network Intrussion](Module_3.md)
-- [Module 4: Security Hardening](Module_4.md)
+- [Module 1: Introduction to asset security](module_1.md)
+- [Module 2: Protect organizational assets](module_2.md)
+- [Module 3: Vulnerabilities in systems](module_3.md)
+- [Module 4: Threats to asset security(module_4.md)
  
 ## Certificate of Completion
-
+[View here](https://www.coursera.org/account/accomplishments/records/F41972LJD9RP)
 
 
 
