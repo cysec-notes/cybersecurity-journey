@@ -77,12 +77,22 @@ A SQL injection is an attack that executes unexpected queries on a database.
 **Threat modeling** is a process of identifying assets, their vulnerabilities, and how each is exposed to threats. Threat Modeling steps:
 - Define the scope
 - Identify threats. An attack tree is a diagram that maps threats to assets.
--  characterize the environment.
--  analyze threats
--  mitigate risk
--  evaluate findings
+- Characterize the environment.
+- Analyze threats
+- Mitigate risk
+- Evaluate findings
 
+#### PAST
 PASTA is a popular threat modeling framework that's used across many industries.
+
+**Stage of this PASTA threat modeling**
+- Stage I: Define business and security objectives
+- Stage II: Define the technical scope
+- Stage III: Decompose the application
+- Stage IV: Threat analysis
+- Stage V: Vulnerability analysis
+- Stage VI: Attack modeling
+- Stage VII: Risk analysis and impact
 
 #### Activity: Apply the PASTA threat model framework
 In this activity, I practice using the (Process of Attack Simulation and Threat Analysis (PASTA) threat model framework)[PASTA-worksheet.pdf]. I determined whether a new shopping app is safe to launch.
