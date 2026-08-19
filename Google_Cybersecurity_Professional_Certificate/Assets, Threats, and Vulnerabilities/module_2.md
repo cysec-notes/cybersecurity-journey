@@ -123,7 +123,7 @@ I learn about principle of least privilege, encryption, decryption, hashes, and 
 - Separation of duties is the principle that users should not be given levels of authorization that would allow them to misuse a system.
 
 ## Next Steps
-Continue Course 1 Module 2
+[Continue Course 5 Module 3](module_3.md)
 
 
 
