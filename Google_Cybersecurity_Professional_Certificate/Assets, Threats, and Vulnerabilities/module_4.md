@@ -97,8 +97,19 @@ PASTA is a popular threat modeling framework that's used across many industries.
 #### Activity: Apply the PASTA threat model framework
 In this activity, I practice using the (Process of Attack Simulation and Threat Analysis (PASTA) threat model framework)[PASTA-worksheet.pdf]. I determined whether a new shopping app is safe to launch.
 
-## Personal reflection and Key takeaways
-- 
+## Coach dialogue: Enhance your threat identification skills
+In this Dialogue, I explore how to identify different forms of security incidents, focused on identifying social engineering techniques, different types of malware, web-based exploits, and understanding the importance of threat modeling.
+
+Dialogue is powered by **GOOGLE AI** and evaluates my answer:
+
+**My strengths:**
+- Consistently and accurately identified various social engineering techniques, malware types, and web-based exploits.
+- Demonstrated a strong understanding of why identifying these threats is crucial for effective threat modeling, connecting the concepts to real-world application and risk mitigation.
+  
+**Areas for improvement:**
+- None. Your responses show you're identifying cyber threats like a pro! Keep up the good work!
+
+
 
 
 
