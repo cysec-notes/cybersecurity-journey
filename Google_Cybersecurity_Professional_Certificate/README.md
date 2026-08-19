@@ -49,25 +49,15 @@ Creating a portfolio document based on provided activity by Google Cybersecurity
 
 
 ### The Google Cybersecurity Certificate program has nine courses:
-1. [Foundations of Cybersecurity](./Foundations%20of%20Cybersecurity/Overview.md) - Explore the cybersecurity profession, including significant events that led to the development of the cybersecurity field and its continued importance to organizational operations. Learn about entry-level cybersecurity roles and responsibilities.
-   
-[View certificate](https://coursera.org/share/b60c0a941db6fc8627afb62c069df6dc)
+1. [Foundations of Cybersecurity](./Foundations%20of%20Cybersecurity/Overview.md) - Explore the cybersecurity profession, including significant events that led to the development of the cybersecurity field and its continued importance to organizational operations. Learn about entry-level cybersecurity roles and responsibilities. [View certificate](https://coursera.org/share/b60c0a941db6fc8627afb62c069df6dc)
 
-2.[Play It Safe: Manage Security Risks](./Play%20It%20Safe:%20Manage%20Security%20Risks/Overview.md) - Identify how cybersecurity professionals use frameworks and controls to protect business operations, and explore common cybersecurity tools.
+2.[Play It Safe: Manage Security Risks](./Play%20It%20Safe:%20Manage%20Security%20Risks/Overview.md) - Identify how cybersecurity professionals use frameworks and controls to protect business operations, and explore common cybersecurity tools. [View certificate](https://coursera.org/share/8608abea82ea48c1369faa1770ec4be3)
 
-[View certificate](https://coursera.org/share/8608abea82ea48c1369faa1770ec4be3)
+3.[Connect and Protect: Networks and Network Security](./Connect%20and%20Protect:%20Networks%20and%20Network%20Security/Overview.md) - Gain an understanding of network-level vulnerabilities and how to secure networks. [View certificate](https://coursera.org/share/b8282a968b454374c94396500c7806c1)
 
-3.[Connect and Protect: Networks and Network Security](./Connect%20and%20Protect:%20Networks%20and%20Network%20Security/Overview.md) - Gain an understanding of network-level vulnerabilities and how to secure networks.
+4. [Tools of the Trade: Linux and SQL](./Tools%20of%20the%20Trade:%20Linux%20and%20SQL/Overview.md) - Explore foundational computing skills, including communicating with the Linux operating system through the command line and querying databases with SQL. [View certificate](https://coursera.org/share/23240427bb4e98a44693c162ffd2f0e4)
 
-[View certificate](https://coursera.org/share/b8282a968b454374c94396500c7806c1)
-
-4. [Tools of the Trade: Linux and SQL](./Tools%20of%20the%20Trade:%20Linux%20and%20SQL/Overview.md) - Explore foundational computing skills, including communicating with the Linux operating system through the command line and querying databases with SQL.
-
-[View certificate](https://coursera.org/share/23240427bb4e98a44693c162ffd2f0e4)
-
-5. [Assets, Threats, and Vulnerabilities](./Assets,%20Threats,%20and%20Vulnerabilities/Overview.md) - Learn about the importance of security controls and developing a threat actor mindset to protect and defend an organization’s assets from various threats, risks, and vulnerabilities.
-
-[View certificate](https://coursera.org/share/a9f0e2b2c84fc5f20daad9284fc1a80c)
+5. [Assets, Threats, and Vulnerabilities](./Assets,%20Threats,%20and%20Vulnerabilities/Overview.md) - Learn about the importance of security controls and developing a threat actor mindset to protect and defend an organization’s assets from various threats, risks, and vulnerabilities. [View certificate](https://coursera.org/share/a9f0e2b2c84fc5f20daad9284fc1a80c)
 
 6. Sound the Alarm: Detection and Response - Understand the incident response lifecycle and practice using tools to detect and respond to cybersecurity incidents.
 
