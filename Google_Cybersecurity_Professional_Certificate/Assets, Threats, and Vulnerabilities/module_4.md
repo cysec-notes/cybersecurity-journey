@@ -84,6 +84,8 @@ A SQL injection is an attack that executes unexpected queries on a database.
 
 PASTA is a popular threat modeling framework that's used across many industries.
 
+#### Activity: Apply the PASTA threat model framework
+In this activity, I practice using the (Process of Attack Simulation and Threat Analysis (PASTA) threat model framework)[PASTA-worksheet.pdf]. I determined whether a new shopping app is safe to launch.
 
 ## Personal reflection and Key takeaways
 - 
