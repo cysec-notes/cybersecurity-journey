@@ -72,6 +72,6 @@ You are part of the security team at Rhetorical Hospital and arrive to work one 
 - Practicing an attacker mindset
   
 
-[Continue Course 5 Module 3](module_3.md)
+[Continue Course 5 Module 4](module_4.md)
 
 
