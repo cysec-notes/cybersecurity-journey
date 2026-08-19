@@ -84,7 +84,7 @@ Every business is different. Each business will have specific requirements to ad
 - follow compliances
   
 ## Next Steps
-Continue Course 1 Module 2
+[Continue Course 5 Module 2](module_2.md)
 
 
 
