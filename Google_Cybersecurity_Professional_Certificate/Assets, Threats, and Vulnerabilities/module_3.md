@@ -70,7 +70,8 @@ You are part of the security team at Rhetorical Hospital and arrive to work one 
 - While a **vulnerability** is a weakness of a system, an **exposure** is a mistake that can be exploited by a threat.
 - To prepare for future risks, security professionals need to stay informed.
 - Practicing an attacker mindset
+  
 
-
+[Continue Course 5 Module 3](module_3.md)
 
 
