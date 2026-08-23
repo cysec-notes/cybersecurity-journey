@@ -26,7 +26,7 @@ Five W's of an incident:
 **incident handler's journal**, which is a form of documentation used in incident response.
 
 #### Portfolio Activity: Document an incident with an incident handler's journal
-I perform this [incident handler's journal](Risk%20register.pdf) activity, to gain familiarity on how to write a incident handler journal used in incident response.
+I perform this [incident handler's journal](Portfolio%20Activity_%20Document%20an%20incident%20with%20an%20incident%20handler's%20journal.pdf) activity, to gain familiarity on how to write a incident handler journal used in incident response.
 
 
 ## Personal Reflection
