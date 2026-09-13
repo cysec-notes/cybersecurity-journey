@@ -48,18 +48,16 @@ An **incident response plan** is a document that outlines the procedures to take
 #### Portfolio Activity: Document an incident with an incident handler's journal
 I perform this [incident handler's journal](Portfolio%20Activity_%20Document%20an%20incident%20with%20an%20incident%20handler's%20journal.pdf) activity, to gain familiarity on how to write a incident handler journal used in incident response.
 
-
+#### Incident response tools
+- detection and management tools
+- documentation tools to collect and compile evidence.
+- investigative tools for analyzing these events, like packet sniffers.
+- 
 ## Personal Reflection
-Every business is different. Each business will have specific requirements to address when devising their security strategy. Knowing why and how businesses classify their assets is an important skill to have as a security professional. Information is one of the most important assets in the world. As a cybersecurity professional, I will be closely involved with protecting information from damage, disclosure, and misuse. Recognizing the challenges that businesses face classifying this type of asset is a key to helping them solve their security needs.
+
 
 **Some of my key takeaways:**
-- Cloud security is growing
-- its up to the client how they secure their platform while cloud services responsible the servers where the clients working
-- security is all about people,process and technology
-- Risk assessments are useful for identifying risks to an organization’s information, networks and systems. Security plans can benefit from regular risk assessments as a way of highlighting important concerns that should be addressed. 
-- keep track of assets
-- you care about people to protect
-- follow compliances
+
   
 ## Next Steps
 [Continue Course 5 Module 2](module_2.md)
