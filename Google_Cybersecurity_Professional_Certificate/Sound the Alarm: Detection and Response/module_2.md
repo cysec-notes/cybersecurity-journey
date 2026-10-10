@@ -15,14 +15,27 @@
 **Indicators of compromise**, also known as IoC, which are observable evidence that suggests signs of a potential security incident.
 **data exfiltration**, which is the unauthorized transmission of data from a system.
 
+[Learn about wireshark](https://www.wireshark.org/docs/wsug_html/)
+
 #### Defensive measures
 1. prevent attacker access
 2. monitor network activity
 3. protect assets
 4. detect and stop the exfiltration
 
-#### Portfolio Activity: Document an incident with an incident handler's journal
-I perform this [incident handler's journal](Portfolio%20Activity_%20Document%20an%20incident%20with%20an%20incident%20handler's%20journal.pdf) activity, to gain familiarity on how to write a incident handler journal used in incident response.
+A packet capture, or P-cap, is a file containing data packets intercepted from an interface or network.
+
+#### Packets contain three components: the header, the payload, and the footer. 
+1. Header
+2. Payload
+3. Footer
+   
+#### Activity: Analyze your first packet
+I perform this activity, to learn how to open and analyze a packet capture file using Wireshark. 
+
+- open saved packet capture files,
+- view high-level packet data, and
+- use filters to inspect detailed packet data.
 
 #### Incident response tools
 - detection and management tools
